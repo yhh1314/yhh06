@@ -1,0 +1,40 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<ul class="nav nav-list" th:fragment="leftmenu">
+    <li class="active">
+        <a th:href="@{/admin/index}">
+            <i class="icon-dashboard"></i>
+            <span class="menu-text"> 控制台 </span>
+        </a>
+    </li>
+    <li class="active">
+        <a th:href="@{/admin/tables}">
+            <i class="icon-dashboard"></i>
+            <span class="menu-text"> 新闻管理 </span>
+        </a>
+    </li>
+    <!--<li>
+        <a href="#" class="dropdown-toggle">
+            <i class="icon-list"></i>
+            <span class="menu-text"> 表格 </span>
+
+            <b class="arrow icon-angle-down"></b>
+        </a>
+
+        <ul class="submenu">
+            <li>
+                <a th:href="@{/admin/tables}">
+                    <i class="icon-double-angle-right"></i>
+                    简单 &amp; 动态
+                </a>
+            </li>
+
+            <li>
+                <a href="jqgrid.html">
+                    <i class="icon-double-angle-right"></i>
+                    jqGrid plugin
+                </a>
+            </li>
+        </ul>
+    </li>-->
+
+</ul><!-- /.nav-list -->

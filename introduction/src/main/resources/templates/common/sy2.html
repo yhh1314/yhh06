@@ -1,0 +1,1066 @@
+<html class="smart-design-mode">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description">
+    <meta name="keywords">
+    <meta name="renderer" content="webkit">
+    <meta name="applicable-device" content="pc">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <title>首页</title>
+    <link rel="icon" href="@{/sitefiles10104/10104824/ICON网站.png"><link rel="shortcut icon" href="@{/sitefiles10104/10104824/ICON网站.png"><link rel="bookmark" href="@{/sitefiles10104/10104824/ICON网站.png">
+
+    <link href="@{/Content/public/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="@{/static/iconfont/1.0.0/iconfont.css" rel="stylesheet" type="text/css">
+    <link href="@{/static/iconfont/companyinfo/iconfont.css" rel="stylesheet" type="text/css">
+    <link href="@{/Designer/Content/base/css/pager.css" rel="stylesheet" type="text/css">
+
+
+    <link href="@{/pubsf/10104/10104824/css/32_Pc_zh-CN.css" rel="stylesheet">
+    <script src="@{/Scripts/JQuery/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="@{/Designer/Scripts/jquery.lazyload.min.js" type="text/javascript"></script>
+    <script src="@{/Designer/Scripts/smart.animation.min.js" type="text/javascript"></script>
+    <script src="@{/Designer/Content/Designer-panel/js/kino.razor.min.js" type="text/javascript"></script>
+    <script src="@{/Scripts/common.min.js?v=20191126" type="text/javascript"></script>
+    <script src="@{/Administration/Scripts/admin.validator.min.js" type="text/javascript"></script>
+    <script src="@{/Administration/Content/plugins/cookie/jquery.cookie.js" type="text/javascript"></script>
+    <script type="text/javascript" id="jssor-all" src="@{/Designer/Scripts/jssor.slider-22.2.16-all.min.js"></script>
+    <script type="text/javascript" id="jqueryzoom" src="@{/Designer/Scripts/jquery.jqueryzoom.js"></script>
+    <script type="text/javascript" id="slideshow" src="@{/Designer/Scripts/slideshow.js"></script>
+
+    <script type="text/javascript">
+        $.ajaxSetup({
+            cache: false,
+            beforeSend: function (jqXHR, settings) {
+                settings.data = settings.data && settings.data.length > 0 ? (settings.data + "&") : "";
+                settings.data = settings.data + "__RequestVerificationToken=" + $('input[name="__RequestVerificationToken"]').val();
+                return true;
+            }
+        });
+    </script>
+
+        <script th:inline="javascript">
+        var context = [[@{/}]];
+    </script>
+
+</head>
+<body id="smart-body" area="main" style="">
+<input type="hidden" id="pageinfo" value="32" data-type="1" data-device="Pc" data-entityid="32">
+<input id="txtDeviceSwitchEnabled" value="show" type="hidden">
+<div id="mainContentWrapper" style="background-color: transparent; background-image: none; background-repeat: no-repeat;background-position:0 0; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;
+     position: relative; width: 100%;min-width:1000px;background-size: auto;" bgscroll="none">
+    <div style="background-color: transparent; background-image: none; background-repeat: no-repeat;background-position:0 0; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;
+         position: relative; width: 100%;min-width:1000px;background-size: auto;" bgscroll="none">
+        <div class=" header" cpid="1133606" id="smv_Area0" style="width: 1000px; height: 669px;  position: relative; margin: 0 auto">
+            <div id="smv_tem_52_2" ctype="slide" class="esmartMargin smartAbs " cpid="1133606" cstyle="Style1" ccolor="Item0" areaid="Area0" iscontainer="False" pvid="" tareaid="Area0" re-direction="y" daxis="All" isdeletable="True" style="height: 600px; width: 100%; left: 0px; top: 69px;z-index:14;"><div class="yibuFrameContent tem_52_2  slide_Style1  " style="overflow:visible;;"><!--w-slide-->
+                <div class="w-slider" id="slider_smv_tem_52_2" data-jssor-slider="1" style="left: 0px; width: 871px; visibility: visible; height: 600px;">
+                    <div style="position: absolute; display: block; top: 0px; left: 0px; width: 871px; height: 600px;">
+                        <div style="position: absolute; display: block; top: 0px; left: -360.5px; width: 1592px; height: 600px;" data-scale-ratio="1">
+                            <div class="w-slider-wrap" data-u="slides" style="width: 1592px; z-index: 0; position: absolute; top: 0px; left: 0px;">
+                                <div style="top: 0px; left: -1592px; width: 1592px; height: 600px; position: absolute; z-index: 0; pointer-events: none;"> </div>
+                           </div>
+                            <div class="w-slider-wrap" data-u="slides" style="width: 1592px; z-index: 0; position: absolute; overflow: hidden; top: 0px; left: 0px;">
+                                <div style="top: 0px; left: 0px; width: 1592px; height: 600px; position: absolute; background-color: rgb(0, 0, 0); opacity: 0; z-index: 0; display: none;"></div>
+
+                        <div style="z-index: 1; top: 0px; left: 1592px; width: 1592px; height: 600px; position: absolute; overflow: hidden;">
+                            <a target="_self" class="w-imglink" style="display: block; top: 0px; left: 0px; width: 1592px; height: 600px; position: relative; z-index: 1;">
+                                <img data-u="image" src="@{/contents/sitefiles2020/10104824/images/2918368.jpg" alt="" title="" class="CutFill" border="0" style="top: 0px; left: 0px; width: auto; height: 600px; z-index: 1; position: absolute;" init="ok">
+                            </a>
+                            <div style="top: 0px; left: 0px; width: 1592px; height: 600px; z-index: 1000; display: none;"></div></div>
+                        <div style="z-index: 1; top: 0px; left: 0px; width: 1592px; height: 600px; position: absolute; overflow: hidden;">
+                            <a target="_self" class="w-imglink" style="display: block; top: 0px; left: 0px; width: 1592px; height: 600px; position: relative; z-index: 1;">
+                                <img data-u="image" src="@{/contents/sitefiles2020/10104824/images/10604287.jpg" alt="2380984_副本" title="2380984_副本" class="CutFill" border="0" style="top: 0px; left: 0px; width: auto; height: 600px; z-index: 1; position: absolute;" init="ok">
+                            </a>
+                            <div style="top: 0px; left: 0px; width: 1592px; height: 600px; z-index: 1000; display: none;"></div></div>
+                    </div></div></div>
+                    <!-- Bullet Navigator -->
+                    <div style="position: absolute; display: block; right: 6.56533px; bottom: 20px; left: 426.199px; width: 18.6018px; height: 6.56533px;"><div class="w-point slideCircle " data-u="navigator" data-autocenter="1" data-scale-ratio="0.5471105527638191" style="width: 34px; left: -7.69912px; height: 12px; top: -2.71734px; transform: scale(0.547111);">
+                        <!-- bullet navigator item prototype -->
+
+                        <div class="w-point-item" data-u="prototype" data-jssor-button="1" style="position: absolute; left: 0px; top: 0px;"></div><div class="w-point-item w-point-itemav" data-u="prototype" data-jssor-button="1" style="position: absolute; left: 22px; top: 0px;"></div></div></div>
+                    <!-- Arrow Navigator -->
+                    <div style="position: absolute; display: block; top: 284.681px; left: 6.56533px; width: 18.6018px; height: 30.6382px;"><span data-u="arrowleft" class="w-point-left slideArrow" style="top: -12.6809px; left: -7.69912px; transform: scale(0.547111);" data-autocenter="2" data-jssor-button="1" data-scale-ratio="0.5471105527638191">
+            <i class="w-itemicon mw-iconfont">넳</i>
+        </span></div>
+                    <div style="position: absolute; display: block; top: 284.681px; right: 6.56533px; width: 18.6018px; height: 30.6382px;"><span data-u="arrowright" class="w-point-right slideArrow" style="top: -12.6809px; right: 12px; left: -7.69912px; transform: scale(0.547111);" data-autocenter="2" data-jssor-button="1" data-scale-ratio="0.5471105527638191">
+            <i class="w-itemicon mw-iconfont">넲</i>
+        </span></div>
+                </div>
+                <!--/w-slide-->
+                <script type="text/javascript">
+                    tem_52_2_slider3_init = function () {
+                        var jssor_1_options = {
+                            $AutoPlay: "on" == "on",//自动播放
+                            $PlayOrientation: "1",//2为向上滑，1为向左滑
+                            $Loop: parseInt("1"),//循环
+                            $Idle: parseInt("5000"),//切换间隔
+                            $SlideDuration: "3000",//延时
+                            $SlideEasing: $Jease$.$OutQuint,
+
+                            $CaptionSliderOptions: {
+                                $Class: $JssorCaptionSlideo$,
+                                $Transitions: GetSlideAnimation("1", "3000"),
+                            },
+
+                            $ArrowNavigatorOptions: {
+                                $Class: $JssorArrowNavigator$
+                            },
+                            $BulletNavigatorOptions: {
+                                $Class: $JssorBulletNavigator$,
+                                $ActionMode: "1"
+                            }, $ThumbnailNavigatorOptions: {
+                                $Class: $JssorThumbnailNavigator$,
+                                $Cols: 1,
+                                $Align: 0,
+                                $NoDrag: true
+                            }
+                        };
+                        var slide = new $JssorSlider$("slider_smv_tem_52_2", jssor_1_options);
+                        $('#smv_tem_52_2').data('jssor_slide', slide);
+
+                        //resize游览器的时候触发自动缩放幻灯
+                        $(window).bind("resize", function (e) {
+                            if (e.target == this) {
+                                var $this = $('#slider_smv_tem_52_2');
+                                var ww = $(window).width();
+                                var width = $this.parent().width();
+
+                                if (ww > width) {
+                                    var left = parseInt((ww - width) * 10 / 2) / 10;
+                                    $this.css({ 'left': -left });
+                                } else {
+                                    $this.css({ 'left': 0 });
+                                }
+                                slide.$ScaleWidth(ww);
+                            }
+                        });
+                    }
+                    $(function () {
+                        //获取幻灯显示动画类型
+                        tem_52_2_fullScreen();
+
+                        tem_52_2_slider3_init();
+
+                        var imgWidth = $('#slider_smv_tem_52_2').width();
+                        var imgHeight = $('#slider_smv_tem_52_2').height();
+                        $('#slider_smv_tem_52_2 img').cutFill(imgWidth, imgHeight, false);
+                    });
+                    function tem_52_2_fullScreen() {
+                        var $this = $('#slider_smv_tem_52_2');
+                        var dh = $(document).height();
+                        var wh = $(window).height();
+                        var ww = $(window).width();
+                        var width = 1000;
+                        //区分页头、页尾、内容区宽度
+                        if ($this.parents(".header").length > 0) {
+                            width = $this.parents(".header").width();
+                        } else if ($this.parents(".footer").length > 0) {
+                            width = $this.parents(".footer").width();
+                        } else {
+                            width = $this.parents(".smvContainer").width();
+                        }
+
+                        if (ww > width) {
+                            var left = parseInt((ww - width) * 10 / 2) / 10;
+                            $this.css({ 'left': -left, 'width': ww });
+                        } else {
+                            $this.css({ 'left': 0, 'width': ww });
+                        }
+
+                        if (VisitFromMobile()) {
+                            $this.css("min-width", width);
+                            setTimeout(function () {
+                                var boxleft = (width - 330) / 2;
+                                $this.find(".w-point").css("left", boxleft + "px");
+                            },  300);
+                        }
+                        $this.children().not(".slideArrow").css({ "width": $this.width() });
+                    };
+                </script></div></div><div id="smv_tem_29_28" ctype="nav" class="esmartMargin smartAbs " cpid="1133606" cstyle="Style3" ccolor="Item0" areaid="Area0" iscontainer="False" pvid="" tareaid="Area0" re-direction="all" daxis="All" isdeletable="True" style="height: 68px; width: 821px; left: 204px; top: 2px;z-index:8;"><div class="yibuFrameContent tem_29_28  nav_Style3  " style="overflow:visible;;"><div id="nav_tem_29_28" class="nav_pc_t_3">
+            <ul class="w-nav" navstyle="style3">
+                <li class="sliding-box" style="left:-0px;top:-0px">
+                    <div class="sliding" style="width: 20%; display: none; left: 350.177px; opacity: 1;"></div>
+                </li>
+                <li class="w-nav-inner" style="height:68px;line-height:68px;width:20%;">
+                    <div class="w-nav-item current">
+                        <a th:href="@{/sy}" target="_self" class="w-nav-item-link">
+                            <span class="mw-iconfont"></span>
+                            <span class="w-link-txt">首页</span>
+                        </a>
+                        <div class="sliding" style="width:20%;"></div>
+                    </div>
+
+                </li>
+                <li class="w-nav-inner" style="height:68px;line-height:68px;width:20%;">
+                    <div class="w-nav-item">
+                        <a th:href="@{/gsjs}" target="_self" class="w-nav-item-link">
+                            <span class="mw-iconfont"></span>
+                            <span class="w-link-txt">公司介绍</span>
+                        </a>
+                        <div class="sliding" style="width:20%;"></div>
+                    </div>
+
+                </li>
+                <li class="w-nav-inner" style="height:68px;line-height:68px;width:20%;">
+                    <div class="w-nav-item">
+                        <a th:href="@{/cpzx}" target="_self" class="w-nav-item-link">
+                            <span class="mw-iconfont"></span>
+                            <span class="w-link-txt">产品中心</span>
+                        </a>
+                        <div class="sliding" style="width:20%;"></div>
+                    </div>
+
+                </li>
+                <li class="w-nav-inner" style="height:68px;line-height:68px;width:20%;">
+                    <div class="w-nav-item">
+                        <a th:href="@{/xwzx}" target="_self" class="w-nav-item-link">
+                            <span class="mw-iconfont"></span>
+                            <span class="w-link-txt">新闻中心</span>
+                        </a>
+                        <div class="sliding" style="width:20%;"></div>
+                    </div>
+
+                </li>
+                <li class="w-nav-inner" style="height:68px;line-height:68px;width:20%;">
+                    <div class="w-nav-item">
+                        <a th:href="@{/lxwm}" target="_self" class="w-nav-item-link">
+                            <span class="mw-iconfont"></span>
+                            <span class="w-link-txt">联系我们</span>
+                        </a>
+                        <div class="sliding" style="width:20%;"></div>
+                    </div>
+
+                </li>
+
+
+            </ul>
+        </div>
+            <script>
+                $(function () {
+                    $('#nav_tem_29_28').find('.w-subnav').hide();
+                    var $this, item, itemAll, index, itemW, goTo;
+                    $('#nav_tem_29_28').off('mouseenter').on('mouseenter', '.w-nav-inner', function () {
+
+                        itemAll = $('#nav_tem_29_28').find('.w-subnav');
+                        $this = $(this);
+                        item = $this.find('.w-subnav');
+                        index = $this.index() -1;
+                        itemW = $this.width();
+                        goTo = itemW * index;
+                        item.slideDown();
+                        $('#nav_tem_29_28').find('.sliding-box .sliding').hide().show().stop().animate({
+                            left: goTo
+                        }, 200, "linear");
+                    }).off('mouseleave').on('mouseleave', '.w-nav-inner', function () {
+                        item = $(this).find('.w-subnav');
+                        item.stop().slideUp();
+                        $('#nav_tem_29_28').find('.sliding-box .sliding').stop().fadeOut(200);
+                    });
+                    SetNavSelectedStyle('nav_tem_29_28');//选中当前导航
+                });
+            </script></div></div><div id="smv_tem_46_33" ctype="image" class="esmartMargin smartAbs " cpid="1133606" cstyle="Style1" ccolor="Item0" areaid="Area0" iscontainer="False" pvid="" tareaid="Area0" re-direction="all" daxis="All" isdeletable="True" style="height: 47px; width: 142px; left: 25px; top: 13px;z-index:7;"><div class="yibuFrameContent tem_46_33  image_Style1  " style="overflow:visible;;">
+            <div class="w-image-box" data-filltype="2" id="div_tem_46_33" style="width: 142px; height: 47px;">
+                <a target="_self" style="width: 100%; height: 100%;">
+                    <img src="@{/contents/sitefiles2020/10104824/images/2811091.png" alt="横版logo-0-00-00-09" title="横版logo-0-00-00-09" id="img_smv_tem_46_33" style="width: 142px; height:47px;">
+                </a>
+            </div>
+
+            <script type="text/javascript">
+                $(function () {
+                    InitImageSmv("tem_46_33", "142", "47", "2");
+                });
+            </script>
+
+        </div></div>
+        </div>
+    </div>
+    <div class="main-layout-wrapper" id="smv_AreaMainWrapper" style="background-color: transparent; background-image: none;
+         background-repeat: no-repeat;background-position:0 0; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;background-size: auto;" bgscroll="none">
+        <div class="main-layout" id="tem-main-layout11" style="width: 100%;">
+            <div style="display: none">
+
+            </div>
+            <div class="" id="smv_MainContent" rel="mainContentWrapper" style="width: 100%; min-height: 300px; position: relative; ">
+
+                <div class="smvWrapper" style="min-width:1000px;  position: relative; background-color: transparent; background-image: none; background-repeat: no-repeat; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;background-position:0 0;background-size:auto;" bgscroll="none"><div class="smvContainer" id="smv_Main" cpid="32" style="min-height:400px;width:1000px;height:2105px;  position: relative; "><div id="smv_con_256_14" ctype="image" smanim="{&quot;delay&quot;:0.7,&quot;duration&quot;:1.5,&quot;direction&quot;:&quot;&quot;,&quot;animationName&quot;:&quot;bounceIn&quot;,&quot;infinite&quot;:&quot;1&quot;}" class="esmartMargin smartAbs animated" cpid="32" cstyle="Style1" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 312px; width: 222px; left: 255px; top: 35px; z-index: 40; opacity: 1;" sm-finished="true" smexecuted="1"><div class="yibuFrameContent con_256_14  image_Style1  " style="overflow:visible;;">
+                    <div class="w-image-box" data-filltype="0" id="div_con_256_14" style="height: 312px; width: 222px;">
+                        <a target="_self" href="/productinfo/255518.html">
+                            <img src="@{/contents/sitefiles2020/10104824/images/10672375.jpg" alt="10672327_meitu_1" title="10672327_meitu_1" id="img_smv_con_256_14" style="width: 222px; height: 312px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_256_14", "223", "312", "0");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_173_24" ctype="image" smanim="{&quot;delay&quot;:0.9,&quot;duration&quot;:1.5,&quot;direction&quot;:&quot;&quot;,&quot;animationName&quot;:&quot;bounceIn&quot;,&quot;infinite&quot;:&quot;1&quot;}" class="esmartMargin smartAbs animated" cpid="32" cstyle="Style1" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 313px; width: 232px; left: 0px; top: 35px; z-index: 40; opacity: 1;" sm-finished="true" smexecuted="1"><div class="yibuFrameContent con_173_24  image_Style1  " style="overflow:visible;;">
+                    <div class="w-image-box" data-filltype="0" id="div_con_173_24" style="height: 313px; width: 232px;">
+                        <a target="_self" href="/RunTime/PreviewPage?pageId=174362&amp;deviceModel=pc&amp;languageId=2">
+                            <img src="@{/contents/sitefiles2020/10104824/images/10601278.jpg" alt="10599327_meitu_1" title="10599327_meitu_1" id="img_smv_con_173_24" style="width: 232px; height: 313px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_173_24", "233", "313", "0");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_228_26" ctype="slide" smanim="{&quot;delay&quot;:0.3,&quot;duration&quot;:1.4,&quot;direction&quot;:&quot;Left&quot;,&quot;animationName&quot;:&quot;slideIn&quot;,&quot;infinite&quot;:&quot;1&quot;}" class="esmartMargin smartAbs animated" cpid="32" cstyle="Style1" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="y" daxis="All" isdeletable="True" style="height: 600px; width: 100%; left: 0px; top: 940px; z-index: 45; opacity: 1;" sm-finished="true" smexecuted="1"><div class="yibuFrameContent con_228_26  slide_Style1  " style="overflow:visible;;"><!--w-slide-->
+                    <div class="w-slider" id="slider_smv_con_228_26" data-jssor-slider="1" style="left: 0px; width: 871px; visibility: visible; height: 600px;">
+                        <div style="position: absolute; display: block; top: 0px; left: 0px; width: 871px; height: 600px;"><div style="position: absolute; display: block; top: 0px; left: -360.5px; width: 1592px; height: 600px;" data-scale-ratio="1"><div class="w-slider-wrap" data-u="slides" style="width: 1592px; z-index: 0; position: absolute; top: 0px; left: 0px;"><div style="top: 0px; left: 0px; width: 1592px; height: 600px; position: absolute; z-index: 0; pointer-events: none;"></div></div><div class="w-slider-wrap" data-u="slides" style="width: 1592px; z-index: 0; position: absolute; overflow: hidden; top: 0px; left: 0px;"><div style="top: 0px; left: 0px; width: 1592px; height: 600px; position: absolute; background-color: rgb(0, 0, 0); opacity: 0; z-index: 0; display: none;"></div>
+
+                            <div style="z-index: 1; top: 0px; left: 0px; width: 1592px; height: 600px; position: absolute; overflow: hidden;">
+                                <a target="_self" class="w-imglink" style="display: block; top: 0px; left: 0px; width: 1592px; height: 600px; position: relative; z-index: 1;">
+                                    <img data-u="image" src="@{/contents/sitefiles2020/10104824/images/2917455.jpg" alt="地图浅蓝-0-00-00-00" title="" class="CutFill" border="0" style="top: 0px; left: 0px; width: auto; height: 600px; z-index: 1; position: absolute;" init="ok">
+                                </a>
+                                <div style="top: 0px; left: 0px; width: 1592px; height: 600px; z-index: 1000; display: none;"></div></div>
+                        </div></div></div>
+                    </div>
+                    <!--/w-slide-->
+                    <script type="text/javascript">
+                        con_228_26_slider3_init = function () {
+                            var jssor_1_options = {
+                                $AutoPlay: "off" == "on",//自动播放
+                                $PlayOrientation: "1",//2为向上滑，1为向左滑
+                                $Loop: parseInt("1"),//循环
+                                $Idle: parseInt("2000"),//切换间隔
+                                $SlideDuration: "1000",//延时
+                                $SlideEasing: $Jease$.$OutQuint,
+
+                                $SlideshowOptions: {
+                                    $Class: $JssorSlideshowRunner$,
+                                    $Transitions: GetSlideAnimation("3", "1000"),
+                                    $TransitionsOrder: 1
+                                },
+
+                                $ArrowNavigatorOptions: {
+                                    $Class: $JssorArrowNavigator$
+                                },
+                                $BulletNavigatorOptions: {
+                                    $Class: $JssorBulletNavigator$,
+                                    $ActionMode: "1"
+                                }, $ThumbnailNavigatorOptions: {
+                                    $Class: $JssorThumbnailNavigator$,
+                                    $Cols: 1,
+                                    $Align: 0,
+                                    $NoDrag: true
+                                }
+                            };
+                            var slide = new $JssorSlider$("slider_smv_con_228_26", jssor_1_options);
+                            $('#smv_con_228_26').data('jssor_slide', slide);
+
+                            //resize游览器的时候触发自动缩放幻灯
+                            $(window).bind("resize", function (e) {
+                                if (e.target == this) {
+                                    var $this = $('#slider_smv_con_228_26');
+                                    var ww = $(window).width();
+                                    var width = $this.parent().width();
+
+                                    if (ww > width) {
+                                        var left = parseInt((ww - width) * 10 / 2) / 10;
+                                        $this.css({ 'left': -left });
+                                    } else {
+                                        $this.css({ 'left': 0 });
+                                    }
+                                    slide.$ScaleWidth(ww);
+                                }
+                            });
+                        }
+                        $(function () {
+                            //获取幻灯显示动画类型
+                            con_228_26_fullScreen();
+
+                            con_228_26_slider3_init();
+
+                            var imgWidth = $('#slider_smv_con_228_26').width();
+                            var imgHeight = $('#slider_smv_con_228_26').height();
+                            $('#slider_smv_con_228_26 img').cutFill(imgWidth, imgHeight, false);
+                        });
+                        function con_228_26_fullScreen() {
+                            var $this = $('#slider_smv_con_228_26');
+                            var dh = $(document).height();
+                            var wh = $(window).height();
+                            var ww = $(window).width();
+                            var width = 1000;
+                            //区分页头、页尾、内容区宽度
+                            if ($this.parents(".header").length > 0) {
+                                width = $this.parents(".header").width();
+                            } else if ($this.parents(".footer").length > 0) {
+                                width = $this.parents(".footer").width();
+                            } else {
+                                width = $this.parents(".smvContainer").width();
+                            }
+
+                            if (ww > width) {
+                                var left = parseInt((ww - width) * 10 / 2) / 10;
+                                $this.css({ 'left': -left, 'width': ww });
+                            } else {
+                                $this.css({ 'left': 0, 'width': ww });
+                            }
+
+                            if (VisitFromMobile()) {
+                                $this.css("min-width", width);
+                                setTimeout(function () {
+                                    var boxleft = (width - 330) / 2;
+                                    $this.find(".w-point").css("left", boxleft + "px");
+                                },  300);
+                            }
+                            $this.children().not(".slideArrow").css({ "width": $this.width() });
+                        };
+                    </script></div></div><div id="smv_con_233_18" ctype="button" smanim="{&quot;delay&quot;:0.4,&quot;duration&quot;:1.5,&quot;direction&quot;:&quot;&quot;,&quot;animationName&quot;:&quot;zoomIn&quot;,&quot;infinite&quot;:&quot;1&quot;}" class="esmartMargin smartAbs animated" cpid="32" cstyle="Style1" ccolor="Item2" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 38px; width: 135px; left: 548px; top: 1261px;z-index:50;"><div class="yibuFrameContent con_233_18  button_Style1  " style="overflow:visible;;"><a target="_self" href="/gsjs" class="w-button f-ellipsis" style="width: 131px; height: 34px; line-height: 34px;">
+    <span class="w-button-position">
+        <em class="w-button-text f-ellipsis">
+            <i class="mw-iconfont w-button-icon w-icon-hide"></i>查看更多
+        </em>
+    </span>
+                </a>
+                    <script type="text/javascript">
+                        $(function () {
+                        });
+                    </script>
+                </div></div><div id="smv_con_231_59" ctype="text" smanim="{&quot;delay&quot;:0.6,&quot;duration&quot;:1.5,&quot;direction&quot;:&quot;Right&quot;,&quot;animationName&quot;:&quot;slideIn&quot;,&quot;infinite&quot;:&quot;1&quot;}" class="esmartMargin smartAbs animated" cpid="32" cstyle="Style1" ccolor="Item4" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 332px; width: 408px; left: 548px; top: 1016px; z-index: 48; opacity: 1;" sm-finished="true" smexecuted="1"><div class="yibuFrameContent con_231_59  text_Style1  " style="overflow:hidden;;"><div id="txt_con_231_59" style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_231_59" style="height: 100%; word-wrap:break-word;">
+                        <p><span style="letter-spacing:2px"><span style="font-size:18px"><span style="color:#555555"><span style="font-family:SimHei">&nbsp; &nbsp;<span style="line-height:1.5">智迅车联是一家保险科技公司，成立于2015年，致力于成为保险机构数字化进化的最佳伙伴，打造连接、赋能保险生态圈的SaaS智能云平台，为保险机构提供SaaS云服务、移动营销（新直销）和场景化保险的定制服务，广泛服务于保险公司、保险专业中介、保险兼业代理等机构；支持保险机构进行产品研发、精准营销、数据管理。</span></span></span></span></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_230_24" ctype="line" smanim="{&quot;delay&quot;:0.4,&quot;duration&quot;:0.8,&quot;direction&quot;:&quot;Right&quot;,&quot;animationName&quot;:&quot;slideIn&quot;,&quot;infinite&quot;:&quot;1&quot;}" class="esmartMargin smartAbs animated" cpid="32" cstyle="Style1" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="x" daxis="All" isdeletable="True" style="height: 20px; width: 399px; left: 548px; top: 975px; z-index: 47; opacity: 1;" sm-finished="true" smexecuted="1"><div class="yibuFrameContent con_230_24  line_Style1  " style="overflow:visible;;"><!-- w-line -->
+                    <div style="position:relative; height:100%">
+                        <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+                    </div>
+                </div></div><div id="smv_con_229_52" ctype="text" smanim="{&quot;delay&quot;:0.4,&quot;duration&quot;:1.5,&quot;direction&quot;:&quot;Right&quot;,&quot;animationName&quot;:&quot;slideIn&quot;,&quot;infinite&quot;:&quot;1&quot;}" class="esmartMargin smartAbs animated" cpid="32" cstyle="Style1" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 60px; width: 358px; left: 548px; top: 931px; z-index: 46; opacity: 1;" sm-finished="true" smexecuted="1"><div class="yibuFrameContent con_229_52  text_Style1  " style="overflow:hidden;;"><div id="txt_con_229_52" style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_229_52" style="height: 100%; word-wrap:break-word;">
+                        <p><strong><span style="color:#555555"><span style="font-family:'Microsoft YaHei'; font-size:24px">智迅车联</span></span></strong></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_274_4" ctype="slide" class="esmartMargin smartAbs " cpid="32" cstyle="Style1" ccolor="Item0" areaid="Main" iscontainer="False" pvid="" tareaid="Main" re-direction="y" daxis="All" isdeletable="True" style="height: 500px; width: 100%; left: 0px; top: 1497px;z-index:45;"><div class="yibuFrameContent con_274_4  slide_Style1  " style="overflow:visible;;"><!--w-slide-->
+                    <div class="w-slider" id="slider_smv_con_274_4" data-jssor-slider="1" style="left: 0px; width: 871px; visibility: visible; height: 500px;">
+                        <div style="position: absolute; display: block; top: 0px; left: 0px; width: 871px; height: 500px;"><div style="position: absolute; display: block; top: 0px; left: -360.5px; width: 1592px; height: 500px;" data-scale-ratio="1"><div class="w-slider-wrap" data-u="slides" style="width: 1592px; z-index: 0; position: absolute; top: 0px; left: 0px;"><div style="top: 0px; left: 0px; width: 1592px; height: 500px; position: absolute; z-index: 0; pointer-events: none;"></div></div><div class="w-slider-wrap" data-u="slides" style="width: 1592px; z-index: 0; position: absolute; overflow: hidden; top: 0px; left: 0px;"><div style="top: 0px; left: 0px; width: 1592px; height: 500px; position: absolute; background-color: rgb(0, 0, 0); opacity: 0; z-index: 0; display: none;"></div>
+
+                            <div style="z-index: 1; top: 0px; left: 0px; width: 1592px; height: 500px; position: absolute; overflow: hidden;">
+                                <a target="_self" class="w-imglink" style="display: block; top: 0px; left: 0px; width: 1592px; height: 500px; position: relative; z-index: 1;">
+                                    <img data-u="image" src="@{/contents/sitefiles2020/10104824/images/2885601.jpg" alt="保险公司-0-00-00-00" title="" class="CutFill" border="0" style="top: 0px; left: 0px; width: auto; height: 500px; z-index: 1; position: absolute;" init="ok">
+                                </a>
+                                <div style="top: 0px; left: 0px; width: 1592px; height: 500px; z-index: 1000; display: none;"></div></div>
+                        </div></div></div>
+                    </div>
+                    <!--/w-slide-->
+                    <script type="text/javascript">
+                        con_274_4_slider3_init = function () {
+                            var jssor_1_options = {
+                                $AutoPlay: "off" == "on",//自动播放
+                                $PlayOrientation: "1",//2为向上滑，1为向左滑
+                                $Loop: parseInt("1"),//循环
+                                $Idle: parseInt("2000"),//切换间隔
+                                $SlideDuration: "1000",//延时
+                                $SlideEasing: $Jease$.$OutQuint,
+
+                                $SlideshowOptions: {
+                                    $Class: $JssorSlideshowRunner$,
+                                    $Transitions: GetSlideAnimation("3", "1000"),
+                                    $TransitionsOrder: 1
+                                },
+
+                                $ArrowNavigatorOptions: {
+                                    $Class: $JssorArrowNavigator$
+                                },
+                                $BulletNavigatorOptions: {
+                                    $Class: $JssorBulletNavigator$,
+                                    $ActionMode: "1"
+                                }, $ThumbnailNavigatorOptions: {
+                                    $Class: $JssorThumbnailNavigator$,
+                                    $Cols: 1,
+                                    $Align: 0,
+                                    $NoDrag: true
+                                }
+                            };
+                            var slide = new $JssorSlider$("slider_smv_con_274_4", jssor_1_options);
+                            $('#smv_con_274_4').data('jssor_slide', slide);
+
+                            //resize游览器的时候触发自动缩放幻灯
+                            $(window).bind("resize", function (e) {
+                                if (e.target == this) {
+                                    var $this = $('#slider_smv_con_274_4');
+                                    var ww = $(window).width();
+                                    var width = $this.parent().width();
+
+                                    if (ww > width) {
+                                        var left = parseInt((ww - width) * 10 / 2) / 10;
+                                        $this.css({ 'left': -left });
+                                    } else {
+                                        $this.css({ 'left': 0 });
+                                    }
+                                    slide.$ScaleWidth(ww);
+                                }
+                            });
+                        }
+                        $(function () {
+                            //获取幻灯显示动画类型
+                            con_274_4_fullScreen();
+
+                            con_274_4_slider3_init();
+
+                            var imgWidth = $('#slider_smv_con_274_4').width();
+                            var imgHeight = $('#slider_smv_con_274_4').height();
+                            $('#slider_smv_con_274_4 img').cutFill(imgWidth, imgHeight, false);
+                        });
+                        function con_274_4_fullScreen() {
+                            var $this = $('#slider_smv_con_274_4');
+                            var dh = $(document).height();
+                            var wh = $(window).height();
+                            var ww = $(window).width();
+                            var width = 1000;
+                            //区分页头、页尾、内容区宽度
+                            if ($this.parents(".header").length > 0) {
+                                width = $this.parents(".header").width();
+                            } else if ($this.parents(".footer").length > 0) {
+                                width = $this.parents(".footer").width();
+                            } else {
+                                width = $this.parents(".smvContainer").width();
+                            }
+
+                            if (ww > width) {
+                                var left = parseInt((ww - width) * 10 / 2) / 10;
+                                $this.css({ 'left': -left, 'width': ww });
+                            } else {
+                                $this.css({ 'left': 0, 'width': ww });
+                            }
+
+                            if (VisitFromMobile()) {
+                                $this.css("min-width", width);
+                                setTimeout(function () {
+                                    var boxleft = (width - 330) / 2;
+                                    $this.find(".w-point").css("left", boxleft + "px");
+                                },  300);
+                            }
+                            $this.children().not(".slideArrow").css({ "width": $this.width() });
+                        };
+                    </script></div></div><div id="smv_con_257_7" ctype="slide" class="esmartMargin smartAbs " cpid="32" cstyle="Style1" ccolor="Item0" areaid="Main" iscontainer="False" pvid="" tareaid="Main" re-direction="y" daxis="All" isdeletable="True" style="height: 179px; width: 100%; left: 0px; top: 682px;z-index:45;"><div class="yibuFrameContent con_257_7  slide_Style1  " style="overflow:visible;;"><!--w-slide-->
+                    <div class="w-slider" id="slider_smv_con_257_7" data-jssor-slider="1" style="left: 0px; width: 871px; visibility: visible; height: 179px;">
+                        <div style="position: absolute; display: block; top: 0px; left: 0px; width: 871px; height: 179px;"><div style="position: absolute; display: block; top: 0px; left: -360.5px; width: 1592px; height: 179px;" data-scale-ratio="1"><div class="w-slider-wrap" data-u="slides" style="width: 1592px; z-index: 0; position: absolute; top: 0px; left: 0px;"><div style="top: 0px; left: 0px; width: 1592px; height: 179px; position: absolute; z-index: 0; pointer-events: none;"></div></div><div class="w-slider-wrap" data-u="slides" style="width: 1592px; z-index: 0; position: absolute; overflow: hidden; top: 0px; left: 0px;"><div style="top: 0px; left: 0px; width: 1592px; height: 179px; position: absolute; background-color: rgb(0, 0, 0); opacity: 0; z-index: 0; display: none;"></div>
+
+                            <div style="z-index: 1; top: 0px; left: 0px; width: 1592px; height: 179px; position: absolute; overflow: hidden;">
+                                <a target="_self" class="w-imglink" style="display: block; top: 0px; left: 0px; width: 1592px; height: 179px; position: relative; z-index: 1;">
+                                    <img data-u="image" src="@{/contents/sitefiles2020/10104824/images/2826851.jpg" alt="" title="" class="CutFill" border="0" style="top: 0px; left: 0px; width: auto; height: 179px; z-index: 1; position: absolute;" init="ok">
+                                </a>
+                                <div style="top: 0px; left: 0px; width: 1592px; height: 179px; z-index: 1000; display: none;"></div></div>
+                        </div></div></div>
+                    </div>
+                    <!--/w-slide-->
+                    <script type="text/javascript">
+                        con_257_7_slider3_init = function () {
+                            var jssor_1_options = {
+                                $AutoPlay: "off" == "on",//自动播放
+                                $PlayOrientation: "1",//2为向上滑，1为向左滑
+                                $Loop: parseInt("1"),//循环
+                                $Idle: parseInt("2000"),//切换间隔
+                                $SlideDuration: "1000",//延时
+                                $SlideEasing: $Jease$.$OutQuint,
+
+                                $SlideshowOptions: {
+                                    $Class: $JssorSlideshowRunner$,
+                                    $Transitions: GetSlideAnimation("3", "1000"),
+                                    $TransitionsOrder: 1
+                                },
+
+                                $ArrowNavigatorOptions: {
+                                    $Class: $JssorArrowNavigator$
+                                },
+                                $BulletNavigatorOptions: {
+                                    $Class: $JssorBulletNavigator$,
+                                    $ActionMode: "1"
+                                }, $ThumbnailNavigatorOptions: {
+                                    $Class: $JssorThumbnailNavigator$,
+                                    $Cols: 1,
+                                    $Align: 0,
+                                    $NoDrag: true
+                                }
+                            };
+                            var slide = new $JssorSlider$("slider_smv_con_257_7", jssor_1_options);
+                            $('#smv_con_257_7').data('jssor_slide', slide);
+
+                            //resize游览器的时候触发自动缩放幻灯
+                            $(window).bind("resize", function (e) {
+                                if (e.target == this) {
+                                    var $this = $('#slider_smv_con_257_7');
+                                    var ww = $(window).width();
+                                    var width = $this.parent().width();
+
+                                    if (ww > width) {
+                                        var left = parseInt((ww - width) * 10 / 2) / 10;
+                                        $this.css({ 'left': -left });
+                                    } else {
+                                        $this.css({ 'left': 0 });
+                                    }
+                                    slide.$ScaleWidth(ww);
+                                }
+                            });
+                        }
+                        $(function () {
+                            //获取幻灯显示动画类型
+                            con_257_7_fullScreen();
+
+                            con_257_7_slider3_init();
+
+                            var imgWidth = $('#slider_smv_con_257_7').width();
+                            var imgHeight = $('#slider_smv_con_257_7').height();
+                            $('#slider_smv_con_257_7 img').cutFill(imgWidth, imgHeight, false);
+                        });
+                        function con_257_7_fullScreen() {
+                            var $this = $('#slider_smv_con_257_7');
+                            var dh = $(document).height();
+                            var wh = $(window).height();
+                            var ww = $(window).width();
+                            var width = 1000;
+                            //区分页头、页尾、内容区宽度
+                            if ($this.parents(".header").length > 0) {
+                                width = $this.parents(".header").width();
+                            } else if ($this.parents(".footer").length > 0) {
+                                width = $this.parents(".footer").width();
+                            } else {
+                                width = $this.parents(".smvContainer").width();
+                            }
+
+                            if (ww > width) {
+                                var left = parseInt((ww - width) * 10 / 2) / 10;
+                                $this.css({ 'left': -left, 'width': ww });
+                            } else {
+                                $this.css({ 'left': 0, 'width': ww });
+                            }
+
+                            if (VisitFromMobile()) {
+                                $this.css("min-width", width);
+                                setTimeout(function () {
+                                    var boxleft = (width - 330) / 2;
+                                    $this.find(".w-point").css("left", boxleft + "px");
+                                },  300);
+                            }
+                            $this.children().not(".slideArrow").css({ "width": $this.width() });
+                        };
+                    </script></div></div><div id="smv_con_269_8" ctype="text" smanim="{&quot;delay&quot;:0.4,&quot;duration&quot;:4.0,&quot;direction&quot;:&quot;Down&quot;,&quot;animationName&quot;:&quot;slideIn&quot;,&quot;infinite&quot;:&quot;infinite&quot;}" class="esmartMargin smartAbs animated slideInDown" cpid="32" cstyle="Style1" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 50px; width: 127px; left: 210px; top: 736px; z-index: 55; animation-duration: 4s; animation-delay: 0.4s; animation-iteration-count: infinite;" sm-finished="true"><div class="yibuFrameContent con_269_8  text_Style1  " style="overflow:hidden;;"><div id="txt_con_269_8" style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_269_8" style="height: 100%; word-wrap:break-word;">
+                        <p><span style="color:#ff0033"><span style="font-size:30px"><strong><span style="font-family:'Microsoft YaHei'">20万+</span></strong></span></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_272_59" ctype="text" smanim="{&quot;delay&quot;:0.8,&quot;duration&quot;:4.0,&quot;direction&quot;:&quot;Down&quot;,&quot;animationName&quot;:&quot;slideIn&quot;,&quot;infinite&quot;:&quot;infinite&quot;}" class="esmartMargin smartAbs animated slideInDown" cpid="32" cstyle="Style1" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 63px; width: 134px; left: 500px; top: 736px; z-index: 56; animation-duration: 4s; animation-delay: 0.8s; animation-iteration-count: infinite;" sm-finished="true"><div class="yibuFrameContent con_272_59  text_Style1  " style="overflow:hidden;;"><div id="txt_con_272_59" style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_272_59" style="height: 100%; word-wrap:break-word;">
+                        <p><span style="color:#ff0033"><strong><span style="font-size:30px"><span style="font-family:'Microsoft YaHei'">200亿+</span></span></strong></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_273_42" ctype="text" smanim="{&quot;delay&quot;:1.2,&quot;duration&quot;:4.0,&quot;direction&quot;:&quot;Down&quot;,&quot;animationName&quot;:&quot;slideIn&quot;,&quot;infinite&quot;:&quot;infinite&quot;}" class="esmartMargin smartAbs animated slideInDown" cpid="32" cstyle="Style1" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 66px; width: 92px; left: 790px; top: 736px; z-index: 57; animation-duration: 4s; animation-delay: 1.2s; animation-iteration-count: infinite;" sm-finished="true"><div class="yibuFrameContent con_273_42  text_Style1  " style="overflow:hidden;;"><div id="txt_con_273_42" style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_273_42" style="height: 100%; word-wrap:break-word;">
+                        <p><span style="color:#ff0033"><strong><span style="font-size:30px"><span style="font-family:'Microsoft YaHei'">26+</span></span></strong></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_275_18" ctype="text" class="esmartMargin smartAbs " cpid="32" cstyle="Style1" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 34px; width: 248px; left: 376px; top: 1542px;z-index:58;"><div class="yibuFrameContent con_275_18  text_Style1  " style="overflow:hidden;;"><div id="txt_con_275_18" style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_275_18" style="height: 100%; word-wrap:break-word;">
+                        <p><strong><span style="color:#444444"><span style="font-family:'Microsoft YaHei'; font-size:24px">核心系统对接保险公司</span></span></strong></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_276_29" ctype="line" class="esmartMargin smartAbs " cpid="32" cstyle="Style1" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="x" daxis="All" isdeletable="True" style="height: 20px; width: 184px; left: 412px; top: 1565px;z-index:59;"><div class="yibuFrameContent con_276_29  line_Style1  " style="overflow:visible;;"><!-- w-line -->
+                    <div style="position:relative; height:100%">
+                        <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+                    </div>
+                </div></div><div id="smv_con_283_15" ctype="slide" class="esmartMargin smartAbs " cpid="32" cstyle="Style2" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 190px; width: 1000px; left: 0px; top: 1910px;z-index:63;"><div class="yibuFrameContent con_283_15  slide_Style2  " style="overflow:visible;;"><!--w-slide-->
+                    <div class="w-slider" id="slider_smv_con_283_15" data-jssor-slider="1" style="visibility: visible; width: 1000px; height: 190px;">
+                        <div style="position: absolute; display: block; top: 0px; left: 0px; width: 1000px; height: 190px;"><div style="position: absolute; display: block; top: 0px; left: 0px; width: 1000px; height: 190px;" data-scale-ratio="1"><div class="w-slider-wrap" data-u="slides" style="z-index: 0; position: absolute; top: 0px; left: 0px;"><div style="top: 0px; left: -1000px; width: 1000px; height: 190px; position: absolute; z-index: 0; pointer-events: none;"></div></div><div class="w-slider-wrap" data-u="slides" style="z-index: 0; position: absolute; overflow: hidden; top: 0px; left: 0px;"><div style="top: 0px; left: 0px; width: 1000px; height: 190px; position: absolute; background-color: rgb(0, 0, 0); opacity: 0; z-index: 0; display: none;"></div>
+
+                            <div style="z-index: 1; top: 0px; left: 1000px; width: 1000px; height: 190px; position: absolute; overflow: hidden;">
+                                <a target="_self" class="w-imgauto" style="display: block; top: 0px; left: 0px; width: 1000px; height: 190px; position: relative; z-index: 1;">
+                                    <img data-u="image" src="@{/contents/sitefiles2020/10104824/images/6920928.png" alt="高企官网" title="高企官网" class="CutFill" border="0" style="top: 0px; left: 0px; width: auto; height: 190px; z-index: 1; margin-left: -28.3056px; position: absolute;" init="ok">
+                                </a>
+
+                                <div style="top: 0px; left: 0px; width: 1000px; height: 190px; z-index: 1000; display: none;"></div></div>
+                            <div style="z-index: 1; top: 0px; left: -1000px; width: 1000px; height: 190px; position: absolute; overflow: hidden;">
+                                <a target="_self" class="w-imgauto" style="display: block; top: 0px; left: 0px; width: 1000px; height: 190px; position: relative; z-index: 1;">
+                                    <img data-u="image" src="@{/contents/sitefiles2020/10104824/images/2950093.jpg" alt="荣誉-修改1-0-00-00-00" title="" class="CutFill" border="0" style="top: 0px; left: 0px; width: auto; height: 190px; z-index: 1; margin-left: -27.7778px; position: absolute;" init="ok">
+                                </a>
+
+                                <div style="top: 0px; left: 0px; width: 1000px; height: 190px; z-index: 1000; display: none;"></div></div>
+                            <div style="z-index: 1; top: 0px; left: -1000px; width: 1000px; height: 190px; position: absolute; overflow: hidden;">
+                                <a target="_self" class="w-imgauto" style="display: block; top: 0px; left: 0px; width: 1000px; height: 190px; position: relative; z-index: 1;">
+                                    <img data-u="image" src="@{/contents/sitefiles2020/10104824/images/2949712.jpg" alt="荣誉-修改2-0-00-00-00" title="" class="CutFill" border="0" style="top: 0px; left: 0px; width: auto; height: 190px; z-index: 1; margin-left: -27.7778px; position: absolute;" init="ok">
+                                </a>
+
+                                <div style="top: 0px; left: 0px; width: 1000px; height: 190px; z-index: 1000; display: none;"></div></div>
+                            <div style="z-index: 1; top: 0px; left: -1000px; width: 1000px; height: 190px; position: absolute; overflow: hidden;">
+                                <a target="_self" class="w-imgauto" style="display: block; top: 0px; left: 0px; width: 1000px; height: 190px; position: relative; z-index: 1;">
+                                    <img data-u="image" src="@{/contents/sitefiles2020/10104824/images/2949713.jpg" alt="荣誉-修改3-0-00-00-00" title="" class="CutFill" border="0" style="top: 0px; left: 0px; width: auto; height: 190px; z-index: 1; margin-left: -27.7778px; position: absolute;" init="ok">
+                                </a>
+
+                                <div style="top: 0px; left: 0px; width: 1000px; height: 190px; z-index: 1000; display: none;"></div></div>
+                            <div style="z-index: 1; top: 0px; left: 0px; width: 1000px; height: 190px; position: absolute; overflow: hidden;">
+                                <a target="_self" class="w-imgauto" style="display: block; top: 0px; left: 0px; width: 1000px; height: 190px; position: relative; z-index: 1;">
+                                    <img data-u="image" src="@{/contents/sitefiles2020/10104824/images/2949991.jpg" alt="荣誉-修改4-0-00-00-00" title="" class="CutFill" border="0" style="top: 0px; left: 0px; width: auto; height: 190px; z-index: 1; margin-left: -27.7778px; position: absolute;" init="ok">
+                                </a>
+
+                                <div style="top: 0px; left: 0px; width: 1000px; height: 190px; z-index: 1000; display: none;"></div></div>
+                        </div></div></div>
+                        <!-- Bullet Navigator -->
+                        <div style="position: absolute; display: block; right: 12px; bottom: 20px; left: 425px; width: 150px; height: 22px;"><div class="w-point" data-u="navigator" data-autocenter="1" data-scale-ratio="1" style="left: 0px; width: 150px; height: 22px; top: 0px;">
+                            <!-- bullet navigator item prototype -->
+
+                            <div class="w-point-item slideCircle" data-u="prototype" data-jssor-button="1" style="position: absolute; left: 0px; top: 0px;"><span class="" style="">1</span></div><div class="w-point-item slideCircle" data-u="prototype" data-jssor-button="1" style="position: absolute; left: 32px; top: 0px;"><span class="" style="">2</span></div><div class="w-point-item slideCircle" data-u="prototype" data-jssor-button="1" style="position: absolute; left: 64px; top: 0px;"><span class="" style="">3</span></div><div class="w-point-item slideCircle" data-u="prototype" data-jssor-button="1" style="position: absolute; left: 96px; top: 0px;"><span class="" style="">4</span></div><div class="w-point-item slideCircle w-point-itemav" data-u="prototype" data-jssor-button="1" style="position: absolute; left: 128px; top: 0px;"><span class="" style="">5</span></div></div></div>
+                        <!-- Arrow Navigator -->
+                        <div style="position: absolute; display: block; top: 67px; bottom: 0px; left: 12px; width: 34px; height: 56px;"><span data-u="arrowleft" class="w-point-left slideArrow" style="top: 0px; left: 0px;" data-autocenter="2" data-jssor-button="1" data-scale-ratio="1">
+            <i class="w-itemicon mw-iconfont">넳</i>
+        </span></div>
+                        <div style="position: absolute; display: block; top: 67px; right: 12px; bottom: 0px; width: 34px; height: 56px;"><span data-u="arrowright" class="w-point-right slideArrow" style="top: 0px; right: 12px; left: 0px;" data-autocenter="2" data-jssor-button="1" data-scale-ratio="1">
+            <i class="w-itemicon mw-iconfont">넲</i>
+        </span></div>
+                    </div>
+                    <!--/w-slide-->
+                    <script type="text/javascript">
+                        con_283_15_slider3_init = function () {
+                            var jssor_1_options = {
+                                $AutoPlay: "on" == "on",//自动播放
+                                $PlayOrientation: "1",//2为向上滑，1为向左滑
+                                $Loop: parseInt("1"),//循环
+                                $SlideDuration: "2000",//延时
+                                $Idle: parseInt("4000"),//切换间隔
+                                $SlideEasing: $Jease$.$OutQuint,
+
+                                $CaptionSliderOptions: {
+                                    $Class: $JssorCaptionSlideo$,
+                                    $Transitions: GetSlideAnimation("1", "2000"),
+                                },
+
+                                $ArrowNavigatorOptions: {
+                                    $Class: $JssorArrowNavigator$
+                                },
+                                $BulletNavigatorOptions: {
+                                    $Class: $JssorBulletNavigator$,
+                                    $ActionMode: "1"
+                                }
+                            };
+                            var slide = new $JssorSlider$("slider_smv_con_283_15", jssor_1_options);
+                            $('#smv_con_283_15').data('jssor_slide', slide);
+                        }
+                        $(function () {
+                            con_283_15_slider3_init();
+                            var imgWidth = $('#slider_smv_con_283_15').width();
+                            var imgHeight = $('#slider_smv_con_283_15').height();
+                            $('#slider_smv_con_283_15 img').cutFill(imgWidth, imgHeight);
+                        });
+
+                    </script></div></div><div id="smv_con_286_59" ctype="image" smanim="{&quot;delay&quot;:0.75,&quot;duration&quot;:0.75,&quot;direction&quot;:&quot;&quot;,&quot;animationName&quot;:&quot;bounceIn&quot;,&quot;infinite&quot;:&quot;1&quot;}" class="esmartMargin smartAbs animated" cpid="32" cstyle="Style1" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 312px; width: 224px; left: 500px; top: 35px; z-index: 1; opacity: 1;" sm-finished="true" smexecuted="1"><div class="yibuFrameContent con_286_59  image_Style1  " style="overflow:visible;;">
+                    <div class="w-image-box" data-filltype="2" id="div_con_286_59" style="width: 222px; height: 312px;">
+                        <a target="_self" href="/RunTime/PreviewPage?pageId=613996&amp;deviceModel=pc&amp;languageId=2" style="width: 100%; height: 100%;">
+                            <img src="@{/contents/sitefiles2020/10104824/images/10675214.jpg" alt="10675133_meitu_1" title="10675133_meitu_1" id="img_smv_con_286_59" style="width: 222px; height: 312px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_286_59", "222", "312", "2");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_287_15" ctype="image" smanim="{&quot;delay&quot;:0.75,&quot;duration&quot;:0.75,&quot;direction&quot;:&quot;&quot;,&quot;animationName&quot;:&quot;bounceIn&quot;,&quot;infinite&quot;:&quot;1&quot;}" class="esmartMargin smartAbs animated" cpid="32" cstyle="Style1" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 313px; width: 238px; left: 747px; top: 35px; z-index: 66; opacity: 1;" sm-finished="true" smexecuted="1"><div class="yibuFrameContent con_287_15  image_Style1  " style="overflow:visible;;">
+                    <div class="w-image-box" data-filltype="2" id="div_con_287_15" style="width: 236px; height: 313px;">
+                        <a target="_self" href="/RunTime/PreviewPage?pageId=614029&amp;deviceModel=pc&amp;languageId=2" style="width: 100%; height: 100%;">
+                            <img src="@{/contents/sitefiles2020/10104824/images/10600481.jpg" alt="10599331_meitu_1" title="10599331_meitu_1" id="img_smv_con_287_15" style="width: 236px; height: 313px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_287_15", "236", "313", "2");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_290_33" ctype="image" class="esmartMargin smartAbs " cpid="32" cstyle="Style3" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 232px; width: 974px; left: 6px; top: 446px;z-index:69;"><div class="yibuFrameContent con_290_33  image_Style3  " style="overflow:visible;;">
+                    <div class="w-image-box" data-filltype="0" id="div_con_290_33" style="height: 232px; width: 974px;">
+                        <a target="_self">
+                            <img src="@{/contents/sitefiles2020/10104824/images/10678379.png" alt="主要客户1" title="主要客户1" id="img_smv_con_290_33" style="width: 974px; height: 232px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_290_33","972","232","0");
+
+                            $('#smv_con_290_33 .w-image-box').hover(function () {
+                                $(this).find("img").css({ "transform": "scale(1.3)", "transition": "all,.4s" })
+                            }, function () {
+                                $(this).find("img").css({ "transform": "", "transition": "" })
+                            });
+
+                        });
+                    </script></div></div><div id="smv_con_292_5" ctype="text" class="esmartMargin smartAbs " cpid="32" cstyle="Style1" ccolor="Item2" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 129px; width: 359px; left: 427px; top: 400px;z-index:71;"><div class="yibuFrameContent con_292_5  text_Style1  " style="overflow:hidden;;"><div id="txt_con_292_5" style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_292_5" style="height: 100%; word-wrap:break-word;">
+                        <p><span style="font-size:24px"><strong><span style="font-family:&quot;Source Han Sans&quot;,Geneva,sans-serif">主要合作客户</span></strong></span></p>
+
+                    </div>
+                </div>
+                </div></div></div></div><input type="hidden" name="__RequestVerificationToken" id="token__RequestVerificationToken" value="BELu4v3aAGjkpVsq7rIlaMVndL-BJ-za3Bt0jCdCdxXQb_-eyqDDDL42lOkCNPi71Z-kqkk68p8vs9ZeR10BnEaft7TKlaBpMviU8upmbnI1">
+            </div>
+        </div>
+    </div>
+    <div style="background-color: transparent; background-image: none; background-repeat: no-repeat;background-position:0 0; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;
+         position: relative; width: 100%;min-width:1000px;background-size: auto;" bgscroll="none">
+        <div class=" footer" cpid="1133606" id="smv_Area3" style="width: 1000px; height: 106px; position: relative; margin: 0 auto;">
+            <div id="smv_tem_44_31" ctype="banner" class="esmartMargin smartAbs " cpid="1133606" cstyle="Style1" ccolor="Item0" areaid="Area3" iscontainer="True" pvid="" tareaid="Area3" re-direction="y" daxis="Y" isdeletable="True" style="height: 106px; width: 100%; left: 0px; top: 0px;z-index:0;"><div class="yibuFrameContent tem_44_31  banner_Style1  " style="overflow:visible;;"><div class="fullcolumn-inner smAreaC" id="smc_Area0" cid="tem_44_31" style="width:1000px">
+                <div id="smv_tem_36_19" ctype="button" class="esmartMargin smartAbs " cpid="1133606" cstyle="Style1" ccolor="Item0" areaid="Area0" iscontainer="False" pvid="tem_44_31" tareaid="Area3" re-direction="all" daxis="All" isdeletable="True" style="height: 38px; width: 263px; left: 25px; top: 9px;z-index:10;"><div class="yibuFrameContent tem_36_19  button_Style1  " style="overflow:visible;;"><a target="_self" class="w-button f-ellipsis" style="width: 263px; height: 38px; line-height: 38px;">
+    <span class="w-button-position">
+        <em class="w-button-text f-ellipsis">
+            <i class="mw-iconfont w-button-icon ">뀣</i>邮箱：Service@zhixunchelian.cn
+        </em>
+    </span>
+                </a>
+                    <script type="text/javascript">
+                        $(function () {
+                        });
+                    </script>
+                </div></div><div id="smv_tem_38_30" ctype="button" class="esmartMargin smartAbs " cpid="1133606" cstyle="Style1" ccolor="Item0" areaid="Area0" iscontainer="False" pvid="tem_44_31" tareaid="Area3" re-direction="all" daxis="All" isdeletable="True" style="height: 38px; width: 281px; left: 679px; top: 9px;z-index:10;"><div class="yibuFrameContent tem_38_30  button_Style1  " style="overflow:visible;;"><a target="_self" class="w-button f-ellipsis" style="width: 281px; height: 38px; line-height: 38px;">
+    <span class="w-button-position">
+        <em class="w-button-text f-ellipsis">
+            <i class="mw-iconfont w-button-icon ">넹</i>地址：成都自贸区德商国际C座2楼204室
+        </em>
+    </span>
+            </a>
+                <script type="text/javascript">
+                    $(function () {
+                    });
+                </script>
+            </div></div><div id="smv_tem_39_6" ctype="button" class="esmartMargin smartAbs " cpid="1133606" cstyle="Style1" ccolor="Item0" areaid="Area0" iscontainer="False" pvid="tem_44_31" tareaid="Area3" re-direction="all" daxis="All" isdeletable="True" style="height: 38px; width: 218px; left: 382px; top: 9px;z-index:10;"><div class="yibuFrameContent tem_39_6  button_Style1  " style="overflow:visible;;"><a target="_self" class="w-button f-ellipsis" style="width: 218px; height: 38px; line-height: 38px;">
+    <span class="w-button-position">
+        <em class="w-button-text f-ellipsis">
+            <i class="mw-iconfont w-button-icon ">넓</i>电话： 400-9691-365
+        </em>
+    </span>
+            </a>
+                <script type="text/javascript">
+                    $(function () {
+                    });
+                </script>
+            </div></div><div id="smv_tem_55_53" ctype="image" class="esmartMargin smartAbs " cpid="1133606" cstyle="Style1" ccolor="Item0" areaid="Area0" iscontainer="False" pvid="tem_44_31" tareaid="Area3" re-direction="all" daxis="All" isdeletable="True" style="height: 20px; width: 20px; left: 707px; top: 68px;z-index:14;"><div class="yibuFrameContent tem_55_53  image_Style1  " style="overflow:visible;;">
+                <div class="w-image-box" data-filltype="2" id="div_tem_55_53" style="width: 20px; height: 20px;">
+                    <a target="_self" style="width: 100%; height: 100%;">
+                        <img src="@{/contents/sitefiles2020/10104824/images/2839762.png" alt="公安机关互联网安全管理服务备案图标" title="公安机关互联网安全管理服务备案图标" id="img_smv_tem_55_53" style="width: 20px; height:20px;">
+                    </a>
+                </div>
+
+                <script type="text/javascript">
+                    $(function () {
+                        InitImageSmv("tem_55_53", "20", "20", "2");
+                    });
+                </script>
+
+            </div></div><div id="smv_tem_42_15" ctype="line" class="esmartMargin smartAbs " cpid="1133606" cstyle="Style1" ccolor="Item0" areaid="Area0" iscontainer="False" pvid="tem_44_31" tareaid="Area3" re-direction="x" daxis="All" isdeletable="True" style="height: 20px; width: 1000px; left: 0px; top: 43px;z-index:12;"><div class="yibuFrameContent tem_42_15  line_Style1  " style="overflow:visible;;"><!-- w-line -->
+                <div style="position:relative; height:100%">
+                    <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+                </div>
+            </div></div><div id="smv_tem_58_11" ctype="button" class="esmartMargin smartAbs " cpid="1133606" cstyle="Style1" ccolor="Item0" areaid="Area0" iscontainer="False" pvid="tem_44_31" tareaid="Area3" re-direction="all" daxis="All" isdeletable="True" style="height: 24px; width: 153px; left: 377px; top: 66px;z-index:61;"><div class="yibuFrameContent tem_58_11  button_Style1  " style="overflow:visible;;"><a target="_self" href="http://www.beian.miit.gov.cn" class="w-button f-ellipsis" style="width: 160px; height: 22px; line-height: 22px;">
+    <span class="w-button-position">
+        <em class="w-button-text f-ellipsis">
+            <i class="mw-iconfont w-button-icon w-icon-hide"></i>蜀ICP备：15022735号
+        </em>
+    </span>
+            </a>
+                <script type="text/javascript">
+                    $(function () {
+                    });
+                </script>
+            </div></div><div id="smv_tem_59_2" ctype="text" class="esmartMargin smartAbs " cpid="1133606" cstyle="Style1" ccolor="Item2" areaid="Area0" iscontainer="False" pvid="tem_44_31" tareaid="Area3" re-direction="all" daxis="All" isdeletable="True" style="height: 25px; width: 633px; left: 209px; top: 71px;z-index:0;"><div class="yibuFrameContent tem_59_2  text_Style1  " style="overflow:hidden;;"><div id="txt_tem_59_2" style="height: 100%;">
+                <div class="editableContent" id="txtc_tem_59_2" style="height: 100%; word-wrap:break-word;">
+                    <p><span style="font-size:14px"><span style="color:#cccccc"><span style="font-family:'Microsoft YaHei'">版权所有：智迅车联 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></span><span style="font-size:14px"><span style="color:#cccccc"><span style="font-family:'Microsoft YaHei'">公安互联网安全认证</span></span></span></p>
+
+                </div>
+            </div>
+            </div></div></div>
+                <div id="bannerWrap_tem_44_31" class="fullcolumn-outer" style="position: absolute; top: 0px; bottom: 0px; left: -12.5px; width: 1025px;">
+                </div>
+
+                <script type="text/javascript">
+
+                    $(function () {
+                        var resize = function () {
+                            $("#smv_tem_44_31 >.yibuFrameContent>.fullcolumn-inner").width($("#smv_tem_44_31").parent().width());
+                            $('#bannerWrap_tem_44_31').fullScreen(function (t) {
+                                if (VisitFromMobile()) {
+                                    t.css("min-width", t.parent().width())
+                                }
+                            });
+                        }
+                        $(window).resize(function (e) {
+                            if (e.target == this) {
+                                resize();
+                            }
+                        });
+                        resize();
+                    });
+                </script>
+            </div></div>
+        </div>
+    </div>
+</div>
+
+<script src="@{/static/lzparallax/1.0.0/lz-parallax.min.js" type="text/javascript"></script>        <script type="text/javascript">
+    $(function () {
+        jsmart.autoContainer = 0;
+        jsmart.autoComputeCallback = function () {
+            if (jsmart.autoContainer) {
+                clearTimeout(jsmart.autoContainer);
+                jsmart.autoContainer = 0;
+            }
+            jsmart.autoContainer = setTimeout(function () {
+                if (window.refreshBgScroll) {
+                    window.refreshBgScroll();
+                }
+            }, 50);
+        }
+        $("div[bgscroll]").each(function () {
+            var bgscroll = $(this).attr("bgscroll");
+            $(this).lzparallax({ effect: bgscroll, autoPosition: false, clone: true });
+        });
+    });
+    window.refreshBgScroll = function () {
+        $("div[bgscroll]").each(function () {
+            var bgscroll = $(this).attr("bgscroll");
+            var bgclear = $(this).attr("bgclear");
+            $(this).removeAttr("bgclear");
+            $(this).lzparallax("refresh", bgscroll, bgclear);
+        });
+    }
+</script>
+
+<!--<div id="xPowered" style="text-align: center;width: 100%;padding-top: 4px;font-size: 12px; background-color: #FFFFFF; color: #232323">
+    <div style="text-align: center; line-height: 2;">
+        <span style="padding-right: 16px;"><a target="_blank" href="http://www.beian.miit.gov.cn" style="color: #232323;">京ICP备xxxxxxxx号</a></span>
+    </div>
+</div>-->
+<script type="text/javascript">
+    $(function() {
+        $("img.lazyload").lazyload({ skip_invisible: false, effect: "fadeIn", failure_limit: 15, threshold: 100 });
+        $('.animated').smanimate();
+        $('.smartRecpt').smrecompute();
+        setCurrentPageTitle('首页', 2);
+        xwezhan.initWz();
+
+      /*  recordPageAccess(
+            32,
+            10104824,
+            '32',
+            '0');*/
+
+
+        if ($("#txtDeviceSwitchEnabled").val() == "hide") {
+            $(".m-deviceSwitch").css("display", "none");
+        }
+
+        // 隐藏备案信息展示
+        $('div[ctype=companyinfo]').find('.company-info-title').each(function(i, it) {
+            if($(it).text().indexOf('备案') > -1 || $(it).next().text().toLowerCase().indexOf('icp') > -1) {
+                $(it).parent().parent().css('display', 'none');
+            }
+        })
+    });
+</script>
+<div id="systemDialogLayer" style="position:relative;z-index:999999"></div>
+<div style="display: none">
+    <script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=&amp;web_id="></script>
+</div>
+
+
+<div id="smv_tem_54_5" ctype="qqservice" class="esmartMargin smartAbs smartFixed    exist" cpid="1133606" cstyle="Style1" ccolor="Item0" areaid="Area0" iscontainer="False" pvid="" tareaid="Area0" re-direction="x" daxis="All" isdeletable="True" style="height: 183px; width: 195px; right: 0px; top: 0px;bottom:0px;margin:auto;z-index:60;"><div class="yibuFrameContent tem_54_5  qqservice_Style1  " style="overflow:hidden;;">
+    <!--w-cs-->
+    <div class="tem_54_5_c w-cs" id="qqservice_tem_54_5">
+        <ul class="w-cs-btn">
+            <li class="w-cs-list w-cs-phoneBtn ">
+                <a href="javascript:void(0);" class="w-cs-icon"><i class="mw-iconfont icon-phone">끅</i></a>
+                <ul class="w-cs-menu w-cs-phone" style="width: 200px; right: 0px;">
+                    <li><h3>客服电话</h3></li>
+                    <li>400 9691 365</li>
+                </ul>
+            </li>
+            <li class="w-cs-list w-cs-qqBtn w-hide">
+                <a href="javascript:void(0);" class="w-cs-icon"><i class="mw-iconfont">뀩</i></a>
+                <ul class="w-cs-menu w-cs-qq" style="width: 200px;">
+                    <li><a href="//wpa.qq.com/msgrd?v=3&amp;uin=123456&amp;site=qq&amp;menu=yes" target="_blank">QQ客服</a></li>
+                </ul>
+            </li>
+            <li class="w-cs-list w-cs-clockBtn w-hide">
+                <a href="javascript:void(0);" class="w-cs-icon"><i class="mw-iconfont icon-clock">뀥</i></a>
+                <ul class="w-cs-menu w-cs-clock" style="width: 200px;">
+                    <li><h3>服务时间</h3></li>
+                    <li>周一至周五 9:00-18:00</li>
+                </ul>
+            </li>
+            <li class="w-cs-list w-cs-qrcodeBtn ">
+                <a href="javascript:void(0);" class="w-cs-icon"><i class="mw-iconfont icon-qrcode">낃</i></a>
+                <ul class="w-cs-menu w-cs-qrcode" style="width: 200px; right: 0px;">
+                    <li><h3>微信二维码</h3></li>
+                    <li class="w-cs-qrcode-img"><img src="@{/contents/sitefiles2020/10104824/images/2815931.jpg" alt=""></li>
+                </ul>
+            </li>
+            <li class="w-cs-list w-cs-upBtn ">
+                <a href="javascript:void(0);" onclick="gotoTop();return false;" class="w-cs-icon"><i class="mw-iconfont icon-up">녕</i></a>
+            </li>
+        </ul>
+    </div>
+    <!--/w-cs-->
+    <script>
+
+        $(function () {
+            var sv = $("#qqservice_tem_54_5");
+
+            var numbers =[];
+            $.each(sv.find(".w-cs-menu"), function() { numbers.push(this.scrollWidth); });
+            var maxInNumbers = Math.max.apply(Math, numbers);
+
+            sv.find(".w-cs-menu").css("width", maxInNumbers + "px");
+            //  显示
+            sv.find(".w-cs-list").hover(function () {
+                $(this).find("ul.w-cs-menu").stop().animate({ right: 61 }, 200);
+            }, function () {
+                $(this).find("ul.w-cs-menu").stop().animate({ right: "0" }, 200);
+            });
+
+            $("#smv_tem_54_5").addClass('exist').appendTo($('body'));
+
+        });
+        function gotoTop(acceleration, stime) {
+            acceleration = acceleration || 0.1;
+            stime = stime || 10;
+            var x1 = 0;
+            var y1 = 0;
+            var x2 = 0;
+            var y2 = 0;
+            if (document.documentElement) {
+                x1 = document.documentElement.scrollLeft || 0;
+                y1 = document.documentElement.scrollTop || 0;
+            }
+            if (document.body) {
+                x2 = document.body.scrollLeft || 0;
+                y2 = document.body.scrollTop || 0;
+            }
+            var x3 = window.scrollX || 0;
+            var y3 = window.scrollY || 0;
+
+            // 滚动条到页面顶部的水平距离
+            var x = Math.max(x1, Math.max(x2, x3));
+            // 滚动条到页面顶部的垂直距离
+            var y = Math.max(y1, Math.max(y2, y3));
+
+            // 滚动距离 = 目前距离 / 速度, 因为距离原来越小, 速度是大于 1 的数, 所以滚动距离会越来越小
+            var speeding = 1 + acceleration;
+            window.scrollTo(Math.floor(x / speeding), Math.floor(y / speeding));
+
+            // 如果距离不为零, 继续调用函数
+            if (x > 0 || y > 0) {
+                var run = "gotoTop(" + acceleration + ", " + stime + ")";
+                window.setTimeout(run, stime);
+            }
+        }
+    </script></div></div></body></html>

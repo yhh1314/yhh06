@@ -1,0 +1,911 @@
+
+
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html class="smart-design-mode">
+<head>
+
+<!--    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" />
+    <meta name="keywords" />
+    <meta name="renderer" content="webkit" />
+    <meta name="applicable-device" content="pc" />
+    <meta http-equiv="Cache-Control" content="no-transform" />-->
+
+
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" />
+    <meta name="keywords" />
+    <meta name="renderer" content="webkit" />
+    <meta name="applicable-device" content="pc" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+
+    <title>产品展示</title>
+    <link rel="icon" th:href="@{/sitefiles10104/10104824/ICON网站.png}"/><link rel="shortcut icon" th:href="@{/sitefiles10104/10104824/ICON网站.png}"/><link rel="bookmark" th:href="@{/sitefiles10104/10104824/ICON网站.png}"/>
+
+    <link th:href="@{/Content/public/css/reset.css}" rel="stylesheet" type="text/css"/>
+    <link th:href="@{/static/iconfont/1.0.0/iconfont.css}" rel="stylesheet" type="text/css"/>
+    <link th:href="@{/static/iconfont/companyinfo/iconfont.css}" rel="stylesheet" type="text/css"/>
+    <link th:href="@{/Designer/Content/base/css/pager.css}" rel="stylesheet" type="text/css"/>
+
+
+    <link th:href="@{/pubsf/10104/10104824/css/34_Pc_zh-CN.css}" rel="stylesheet" />
+    <script th:src="@{/Scripts/JQuery/jquery-1.10.2.min.js}" type="text/javascript"></script>
+    <script th:src="@{/Designer/Scripts/jquery.lazyload.min.js}" type="text/javascript"></script>
+    <script th:src="@{/Designer/Scripts/smart.animation.min.js}" type="text/javascript"></script>
+    <script th:src="@{/Designer/Content/Designer-panel/js/kino.razor.min.js}" type="text/javascript"></script>
+    <script th:src="@{/Scripts/common.min1afd.js}" type="text/javascript"></script>
+    <script th:src="@{/Administration/Scripts/admin.validator.min.js}" type="text/javascript"></script>
+    <script th:src="@{/Administration/Content/plugins/cookie/jquery.cookie.js}" type="text/javascript"></script>
+    <script type='text/javascript' id='jqPaginator' th:src='@{/Scripts/statics/js/jqPaginator.min.js}' ></script>
+
+    <script type="text/javascript">
+        $.ajaxSetup({
+            cache: false,
+            beforeSend: function (jqXHR, settings) {
+                settings.data = settings.data && settings.data.length > 0 ? (settings.data + "&") : "";
+                settings.data = settings.data + "__RequestVerificationToken=" + $('input[name="__RequestVerificationToken"]').val();
+                return true;
+            }
+        });
+    </script>
+</head>
+<body id="smart-body" area="main">
+<input type="hidden" id="pageinfo"
+       value="34"
+       data-type="1"
+       data-device="Pc"
+       data-entityid="34" />
+<input id="txtDeviceSwitchEnabled" value="show" type="hidden" />
+<div id="mainContentWrapper" style="background-color: transparent; background-image: none; background-repeat: no-repeat;background-position:0 0; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;
+     position: relative; width: 100%;min-width:1000px;background-size: auto;" bgScroll="none">
+    <div style="background-color: transparent; background-image: none; background-repeat: no-repeat;background-position:0 0; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;
+         position: relative; width: 100%;min-width:1000px;background-size: auto;" bgScroll="none">
+        <div class=" header" cpid="1087" id="smv_Area0" style="width: 1000px; height: 72px;  position: relative; margin: 0 auto">
+            <div id="smv_tem_28_31" ctype="image"  class="esmartMargin smartAbs " cpid="1087" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="" tareaId="Area0"  re-direction="all" daxis="All" isdeletable="True" style="height: 47px; width: 142px; left: 22px; top: 13px;z-index:7;"><div class="yibuFrameContent tem_28_31  image_Style1  " style="overflow:visible;;" >
+                <div class="w-image-box" data-fillType="2" id="div_tem_28_31">
+                    <a target="_self" href="">
+                        <img th:src="@{/contents/sitefiles2020/10104824/images/2811091.png}" alt="横版logo-0-00-00-09" title="横版logo-0-00-00-09" id="img_smv_tem_28_31" style="width: 142px; height:47px;">
+                    </a>
+                </div>
+
+                <script type="text/javascript">
+                    $(function () {
+                        InitImageSmv("tem_28_31", "142", "47", "2");
+                    });
+                </script>
+
+            </div></div><div id="smv_tem_29_28" ctype="nav"  class="esmartMargin smartAbs " cpid="1087" cstyle="Style3" ccolor="Item0" areaId="Area0" isContainer="False" pvid="" tareaId="Area0"  re-direction="all" daxis="All" isdeletable="True" style="height: 69px; width: 821px; left: 201px; top: 2px;z-index:8;"><div class="yibuFrameContent tem_29_28  nav_Style3  " style="overflow:visible;;" ><div id="nav_tem_29_28" class="nav_pc_t_3">
+            <ul class="w-nav" navstyle="style3">
+                <li class="sliding-box" style="left:-0px;top:-0px">
+                    <div class="sliding" style="width:20%;"></div>
+                </li>
+                <li class="w-nav-inner" style="height:68px;line-height:68px;width:20%;">
+                    <div class="w-nav-item">
+                        <a  th:href="@{/sy}" target="_self" class="w-nav-item-link">
+                            <span class="mw-iconfont"></span>
+                            <span class="w-link-txt">首页</span>
+                        </a>
+                        <div class="sliding" style="width:20%;"></div>
+                    </div>
+
+                </li>
+                <li class="w-nav-inner" style="height:68px;line-height:68px;width:20%;">
+                    <div class="w-nav-item">
+                        <a  th:href="@{/gsjs}" target="_self" class="w-nav-item-link">
+                            <span class="mw-iconfont"></span>
+                            <span class="w-link-txt">公司介绍</span>
+                        </a>
+                        <div class="sliding" style="width:20%;"></div>
+                    </div>
+
+                </li>
+                <li class="w-nav-inner" style="height:68px;line-height:68px;width:20%;">
+                    <div class="w-nav-item">
+                        <a  th:href="@{/cpzx}" target="_self" class="w-nav-item-link">
+                            <span class="mw-iconfont"></span>
+                            <span class="w-link-txt">产品中心</span>
+                        </a>
+                        <div class="sliding" style="width:20%;"></div>
+                    </div>
+
+                </li>
+                <li class="w-nav-inner" style="height:68px;line-height:68px;width:20%;">
+                    <div class="w-nav-item">
+                        <a  th:href="@{/xwzx}" target="_self" class="w-nav-item-link">
+                            <span class="mw-iconfont"></span>
+                            <span class="w-link-txt">新闻中心</span>
+                        </a>
+                        <div class="sliding" style="width:20%;"></div>
+                    </div>
+
+                </li>
+                <li class="w-nav-inner" style="height:68px;line-height:68px;width:20%;">
+                    <div class="w-nav-item">
+                        <a th:href="@{/lxwm}" target="_self" class="w-nav-item-link">
+                            <span class="mw-iconfont"></span>
+                            <span class="w-link-txt">联系我们</span>
+                        </a>
+                        <div class="sliding" style="width:20%;"></div>
+                    </div>
+
+                </li>
+
+            </ul>
+        </div>
+            <script>
+                $(function () {
+                    $('#nav_tem_29_28').find('.w-subnav').hide();
+                    var $this, item, itemAll, index, itemW, goTo;
+                    $('#nav_tem_29_28').off('mouseenter').on('mouseenter', '.w-nav-inner', function () {
+
+                        itemAll = $('#nav_tem_29_28').find('.w-subnav');
+                        $this = $(this);
+                        item = $this.find('.w-subnav');
+                        index = $this.index() -1;
+                        itemW = $this.width();
+                        goTo = itemW * index;
+                        item.slideDown();
+                        $('#nav_tem_29_28').find('.sliding-box .sliding').hide().show().stop().animate({
+                            left: goTo
+                        }, 200, "linear");
+                    }).off('mouseleave').on('mouseleave', '.w-nav-inner', function () {
+                        item = $(this).find('.w-subnav');
+                        item.stop().slideUp();
+                        $('#nav_tem_29_28').find('.sliding-box .sliding').stop().fadeOut(200);
+                    });
+                    SetNavSelectedStyle('nav_tem_29_28');//选中当前导航
+                });
+            </script></div></div><div id="smv_tem_46_40" ctype="qqservice" class="esmartMargin smartAbs smartFixed   " cpid="1087" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="" tareaId="Area0"  re-direction="x" daxis="All" isdeletable="True" style="height: 183px; width: 195px; right: 0px; top: 0px;bottom:0px;margin:auto;z-index:57;"><div class="yibuFrameContent tem_46_40  qqservice_Style1  " style="overflow:hidden;;" >
+            <!--w-cs-->
+            <div class="tem_46_40_c w-cs" id="qqservice_tem_46_40">
+                <ul class="w-cs-btn">
+                    <li class="w-cs-list w-cs-phoneBtn ">
+                        <a href="javascript:void(0);" class="w-cs-icon"><i class="mw-iconfont icon-phone">&#xb045;</i></a>
+                        <ul class="w-cs-menu w-cs-phone">
+                            <li><h3>客服电话</h3></li>
+                            <li>400 9691 365</li>
+                        </ul>
+                    </li>
+                    <li class="w-cs-list w-cs-qqBtn w-hide">
+                        <a href="javascript:void(0);" class="w-cs-icon"><i class="mw-iconfont">&#xb029;</i></a>
+                        <ul class="w-cs-menu w-cs-qq">
+                            <li><a href="//wpa.qq.com/msgrd?v=3&amp;uin=123456&amp;site=qq&amp;menu=yes" target="_blank">QQ客服</a></li>
+                        </ul>
+                    </li>
+                    <li class="w-cs-list w-cs-clockBtn w-hide">
+                        <a href="javascript:void(0);" class="w-cs-icon"><i class="mw-iconfont icon-clock">&#xb025;</i></a>
+                        <ul class="w-cs-menu w-cs-clock">
+                            <li><h3>服务时间</h3></li>
+                            <li>周一至周五 9:00-18:00</li>
+                        </ul>
+                    </li>
+                    <li class="w-cs-list w-cs-qrcodeBtn ">
+                        <a href="javascript:void(0);" class="w-cs-icon"><i class="mw-iconfont icon-qrcode">&#xb083;</i></a>
+                        <ul class="w-cs-menu w-cs-qrcode">
+                            <li><h3>微信二维码</h3></li>
+                            <li class="w-cs-qrcode-img"><img th:src="@{/contents/sitefiles2020/10104824/images/2815931.jpg}" alt=""></li>
+                        </ul>
+                    </li>
+                    <li class="w-cs-list w-cs-upBtn ">
+                        <a href="javascript:void(0);" onclick="gotoTop();return false;" class="w-cs-icon"><i class="mw-iconfont icon-up">&#xb155;</i></a>
+                    </li>
+                </ul>
+            </div>
+            <!--/w-cs-->
+            <script>
+
+                $(function () {
+                    var sv = $("#qqservice_tem_46_40");
+
+                    var numbers =[];
+                    $.each(sv.find(".w-cs-menu"), function() { numbers.push(this.scrollWidth); });
+                    var maxInNumbers = Math.max.apply(Math, numbers);
+
+                    sv.find(".w-cs-menu").css("width", maxInNumbers + "px");
+                    //  显示
+                    sv.find(".w-cs-list").hover(function () {
+                        $(this).find("ul.w-cs-menu").stop().animate({ right: 61 }, 200);
+                    }, function () {
+                        $(this).find("ul.w-cs-menu").stop().animate({ right: "0" }, 200);
+                    });
+
+                    $("#smv_tem_46_40").addClass('exist').appendTo($('body'));
+
+                });
+                function gotoTop(acceleration, stime) {
+                    acceleration = acceleration || 0.1;
+                    stime = stime || 10;
+                    var x1 = 0;
+                    var y1 = 0;
+                    var x2 = 0;
+                    var y2 = 0;
+                    if (document.documentElement) {
+                        x1 = document.documentElement.scrollLeft || 0;
+                        y1 = document.documentElement.scrollTop || 0;
+                    }
+                    if (document.body) {
+                        x2 = document.body.scrollLeft || 0;
+                        y2 = document.body.scrollTop || 0;
+                    }
+                    var x3 = window.scrollX || 0;
+                    var y3 = window.scrollY || 0;
+
+                    // 滚动条到页面顶部的水平距离
+                    var x = Math.max(x1, Math.max(x2, x3));
+                    // 滚动条到页面顶部的垂直距离
+                    var y = Math.max(y1, Math.max(y2, y3));
+
+                    // 滚动距离 = 目前距离 / 速度, 因为距离原来越小, 速度是大于 1 的数, 所以滚动距离会越来越小
+                    var speeding = 1 + acceleration;
+                    window.scrollTo(Math.floor(x / speeding), Math.floor(y / speeding));
+
+                    // 如果距离不为零, 继续调用函数
+                    if (x > 0 || y > 0) {
+                        var run = "gotoTop(" + acceleration + ", " + stime + ")";
+                        window.setTimeout(run, stime);
+                    }
+                }
+            </script></div></div>
+        </div>
+    </div>
+    <div class="main-layout-wrapper" id="smv_AreaMainWrapper" style="background-color: rgb(255, 255, 255); background-image: none;
+         background-repeat: no-repeat;background-position:0 0; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;background-size: auto;"
+         bgScroll="none">
+        <div class="main-layout" id="tem-main-layout11" style="width: 100%;">
+            <div style="display: none">
+
+            </div>
+            <div class="" id="smv_MainContent" rel="mainContentWrapper" style="width: 100%; min-height: 300px; position: relative; ">
+
+                <div class="smvWrapper"  style="min-width:1000px;  position: relative; background-color: transparent; background-image: none; background-repeat: no-repeat; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;background-position:0 0;background-size:auto;" bgScroll="none"><div class="smvContainer" id="smv_Main" cpid="34" style="min-height:400px;width:1000px;height:12079px;  position: relative; "><div id="smv_con_55_54" ctype="banner"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="Main" isContainer="True" pvid="" tareaId="Main"  re-direction="y" daxis="Y" isdeletable="True" style="height: 300px; width: 100%; left: 0px; top: 1px;z-index:14;"><div class="yibuFrameContent con_55_54  banner_Style1  " style="overflow:visible;;" ><div class="fullcolumn-inner smAreaC" id="smc_Area0" cid="con_55_54" style="width:1000px">
+                </div>
+                    <div id="bannerWrap_con_55_54" class="fullcolumn-outer" style="position: absolute; top: 0; bottom: 0;">
+                    </div>
+
+                    <script type="text/javascript">
+
+                        $(function () {
+                            var resize = function () {
+                                $("#smv_con_55_54 >.yibuFrameContent>.fullcolumn-inner").width($("#smv_con_55_54").parent().width());
+                                $('#bannerWrap_con_55_54').fullScreen(function (t) {
+                                    if (VisitFromMobile()) {
+                                        t.css("min-width", t.parent().width())
+                                    }
+                                });
+                            }
+                            $(window).resize(function (e) {
+                                if (e.target == this) {
+                                    resize();
+                                }
+                            });
+                            resize();
+                        });
+                    </script>
+                </div></div><div id="smv_con_24_51" ctype="listproduct" smanim='{"delay":0.3,"duration":1.5,"direction":"","animationName":"pulse","infinite":"1"}'  class="esmartMargin smartAbs animated" cpid="34" cstyle="Style5" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 453px; width: 219px; left: 261px; top: 314px;z-index:0;"><div class="yibuFrameContent con_24_51  listproduct_Style5  " style="overflow:hidden;;" >    <div class="w-list xn-resize">
+                    <ul class="w-list-ul f-clearfix" id="ulList_con_24_51"
+                        data-title-autolines="1"
+                        data-desc-autolines="1">
+                        <li class="w-list-item f-clearfix">
+                            <a th:href="@{/saascenter}" target="_self" class="w-list-link">
+                                <div class="w-list-pic">
+                                    <img th:src="@{/contents/sitefiles2020/10104824/images/10672375.jpg}" class="w-listpic-in" />
+                                </div>
+                                <div class="w-list-bottom">
+                                    <h5 class="w-list-title">保险SaaS服务</h5>
+                                    <div class="w-list-desc "></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                    <script>
+                        var callback_con_24_51 = function () {
+                            var sv = $("#smv_con_24_51");
+                            var titlelines = parseInt(sv.find(".w-list-ul").attr("data-title-autolines"));
+                            var desclines = parseInt(sv.find(".w-list-ul").attr("data-desc-autolines"));
+
+                            var titleItem = sv.find(".w-list-title");
+                            var title_line_height = titleItem.css("line-height");
+                            titleItem.css("height", parseInt(title_line_height) * titlelines);
+
+                            var desc_line_height = sv.find(".w-list-desc").css("line-height");
+                            sv.find(".w-list-desc").css("height", parseInt(desc_line_height) * desclines);
+
+                            sv.find("img").cutFill();
+                        }
+                        callback_con_24_51();
+                    </script>
+                </div></div><div id="smv_con_34_14" ctype="listproduct" smanim='{"delay":0.5,"duration":1.5,"direction":"","animationName":"pulse","infinite":"1"}'  class="esmartMargin smartAbs animated" cpid="34" cstyle="Style5" ccolor="Item0" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 444px; width: 223px; left: 11px; top: 311px;z-index:0;"><div class="yibuFrameContent con_34_14  listproduct_Style5  " style="overflow:hidden;;" >    <div class="w-list xn-resize">
+                    <ul class="w-list-ul f-clearfix" id="ulList_con_34_14"
+                        data-title-autolines="1"
+                        data-desc-autolines="1">
+                        <li class="w-list-item f-clearfix">
+                            <a th:href="@{/madecenter}" target="_self" class="w-list-link">
+                                <div class="w-list-pic">
+                                    <img th:src="@{/contents/sitefiles2020/10104824/images/10601278.jpg}" class="w-listpic-in" />
+                                </div>
+                                <div class="w-list-bottom">
+                                    <h5 class="w-list-title">场景保险定制服务</h5>
+                                    <div class="w-list-desc "></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                    <script>
+                        var callback_con_34_14 = function () {
+                            var sv = $("#smv_con_34_14");
+                            var titlelines = parseInt(sv.find(".w-list-ul").attr("data-title-autolines"));
+                            var desclines = parseInt(sv.find(".w-list-ul").attr("data-desc-autolines"));
+
+                            var titleItem = sv.find(".w-list-title");
+                            var title_line_height = titleItem.css("line-height");
+                            titleItem.css("height", parseInt(title_line_height) * titlelines);
+
+                            var desc_line_height = sv.find(".w-list-desc").css("line-height");
+                            sv.find(".w-list-desc").css("height", parseInt(desc_line_height) * desclines);
+
+                            sv.find("img").cutFill();
+                        }
+                        callback_con_34_14();
+                    </script>
+                </div></div><div id="smv_con_44_1" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 84px; width: 320px; left: 411px; top: 3556px;z-index:20;"><div class="yibuFrameContent con_44_1  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_44_1' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_44_1" style="height: 100%; word-wrap:break-word;">
+                        <p><span style="font-size:26px"><strong><span style="color:#444444"><span style="font-family:'Microsoft YaHei'">保险SaaS云平台</span></span></strong></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_113_45" ctype="image"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 1548px; width: 1679px; left: -350px; top: 3697px;z-index:74;"><div class="yibuFrameContent con_113_45  image_Style1  " style="overflow:visible;;" >
+                    <div class="w-image-box" data-fillType="2" id="div_con_113_45">
+                        <a target="_self" href="">
+                            <img th:src="@{/contents/sitefiles2020/10104824/images/10902307.jpg}" alt="2931564_meitu_1" title="2931564_meitu_1" id="img_smv_con_113_45" style="width: 1677px; height:1546px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_113_45", "1677", "1548", "2");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_112_41" ctype="image"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 1180px; width: 1666px; left: -339px; top: 6216px;z-index:73;"><div class="yibuFrameContent con_112_41  image_Style1  " style="overflow:visible;;" >
+                    <div class="w-image-box" data-fillType="2" id="div_con_112_41">
+                        <a target="_self" href="">
+                            <img th:src="@{/contents/sitefiles2020/10104824/images/2931722.jpg}" alt="产险核心系统-新-0-00-00-00" title="产险核心系统-新-0-00-00-00" id="img_smv_con_112_41" style="width: 1664px; height:1178px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_112_41", "1664", "1180", "2");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_114_13" ctype="image"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 1418px; width: 1658px; left: -336px; top: 7474px;z-index:75;"><div class="yibuFrameContent con_114_13  image_Style1  " style="overflow:visible;;" >
+                    <div class="w-image-box" data-fillType="2" id="div_con_114_13">
+                        <a target="_self" href="">
+                            <img th:src="@{/contents/sitefiles2020/10104824/images/10903234.png}" alt="在线视频理赔改" title="在线视频理赔改" id="img_smv_con_114_13" style="width: 1656px; height:1416px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_114_13", "1656", "1418", "2");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_50_28" ctype="banner"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="Main" isContainer="True" pvid="" tareaId="Main"  re-direction="y" daxis="Y" isdeletable="True" style="height: 1787px; width: 100%; left: 0px; top: 796px;z-index:21;"><div class="yibuFrameContent con_50_28  banner_Style1  " style="overflow:visible;;" ><div class="fullcolumn-inner smAreaC" id="smc_Area0" cid="con_50_28" style="width:1000px">
+                </div>
+                    <div id="bannerWrap_con_50_28" class="fullcolumn-outer" style="position: absolute; top: 0; bottom: 0;">
+                    </div>
+
+                    <script type="text/javascript">
+
+                        $(function () {
+                            var resize = function () {
+                                $("#smv_con_50_28 >.yibuFrameContent>.fullcolumn-inner").width($("#smv_con_50_28").parent().width());
+                                $('#bannerWrap_con_50_28').fullScreen(function (t) {
+                                    if (VisitFromMobile()) {
+                                        t.css("min-width", t.parent().width())
+                                    }
+                                });
+                            }
+                            $(window).resize(function (e) {
+                                if (e.target == this) {
+                                    resize();
+                                }
+                            });
+                            resize();
+                        });
+                    </script>
+                </div></div><div id="smv_con_51_57" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 77px; width: 377px; left: 386px; top: 758px;z-index:23;"><div class="yibuFrameContent con_51_57  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_51_57' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_51_57" style="height: 100%; word-wrap:break-word;">
+                        <p><span style="font-size:26px"><span style="color:#444444"><strong><span style="font-family:Microsoft YaHei">保险场景定制服务</span></strong></span></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_64_33" ctype="listproduct" smanim='{"delay":0.7,"duration":1.5,"direction":"","animationName":"pulse","infinite":"1"}'  class="esmartMargin smartAbs animated" cpid="34" cstyle="Style5" ccolor="Item0" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 455px; width: 255px; left: 510px; top: 312px;z-index:0;"><div class="yibuFrameContent con_64_33  listproduct_Style5  " style="overflow:hidden;;" >    <div class="w-list xn-resize">
+                    <ul class="w-list-ul f-clearfix" id="ulList_con_64_33"
+                        data-title-autolines="1"
+                        data-desc-autolines="1">
+                        <li class="w-list-item f-clearfix">
+                            <a th:href="@{/noncar}" target="_blank" class="w-list-link">
+                                <div class="w-list-pic">
+                                    <img th:src="@{/contents/sitefiles2020/10104824/images/10675214.jpg}" class="w-listpic-in" />
+                                </div>
+                                <div class="w-list-bottom">
+                                    <h5 class="w-list-title">非车险销售云平台</h5>
+                                    <div class="w-list-desc "></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                    <script>
+                        var callback_con_64_33 = function () {
+                            var sv = $("#smv_con_64_33");
+                            var titlelines = parseInt(sv.find(".w-list-ul").attr("data-title-autolines"));
+                            var desclines = parseInt(sv.find(".w-list-ul").attr("data-desc-autolines"));
+
+                            var titleItem = sv.find(".w-list-title");
+                            var title_line_height = titleItem.css("line-height");
+                            titleItem.css("height", parseInt(title_line_height) * titlelines);
+
+                            var desc_line_height = sv.find(".w-list-desc").css("line-height");
+                            sv.find(".w-list-desc").css("height", parseInt(desc_line_height) * desclines);
+
+                            sv.find("img").cutFill();
+                        }
+                        callback_con_64_33();
+                    </script>
+                </div></div><div id="smv_con_84_22" ctype="image"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 838px; width: 1088px; left: -43px; top: 9606px;z-index:45;"><div class="yibuFrameContent con_84_22  image_Style1  " style="overflow:visible;;" >
+                    <div class="w-image-box" data-fillType="2" id="div_con_84_22">
+                        <a target="_self" href="">
+                            <img th:src="@{/contents/sitefiles2020/10104824/images/10874410.png}" alt="非车销售平台改" title="非车销售平台改" id="img_smv_con_84_22" style="width: 1086px; height:836px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_84_22", "1086", "838", "2");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_68_59" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 103px; width: 280px; left: 403px; top: 9419px;z-index:25;"><div class="yibuFrameContent con_68_59  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_68_59' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_68_59" style="height: 100%; word-wrap:break-word;">
+                        <p><span style="font-size:26px"><strong><span style="font-family:Tahoma,Geneva,sans-serif">非车险销售平台</span></strong></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_70_28" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item2" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 121px; width: 246px; left: 379px; top: 10445px;z-index:35;"><div class="yibuFrameContent con_70_28  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_70_28' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_70_28" style="height: 100%; word-wrap:break-word;">
+                        <p><span style="font-family:Source Han Sans"><span style="font-size:26px"><strong>人工智能云服务</strong></span></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_71_33" ctype="image"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 287px; width: 1129px; left: -70px; top: 10644px;z-index:36;"><div class="yibuFrameContent con_71_33  image_Style1  " style="overflow:visible;;" >
+                    <div class="w-image-box" data-fillType="0" id="div_con_71_33">
+                        <a target="_self" href="">
+                            <img th:src="@{/contents/sitefiles2020/10104824/images/10939088.png}" alt="人工智能-智能语音、查勘1" title="人工智能-智能语音、查勘1" id="img_smv_con_71_33" style="width: 1127px; height:285px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_71_33", "1127", "287", "0");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_76_35" ctype="listproduct"  class="esmartMargin smartAbs " cpid="34" cstyle="Style5" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 457px; width: 230px; left: 769px; top: 306px;z-index:37;"><div class="yibuFrameContent con_76_35  listproduct_Style5  " style="overflow:hidden;;" ><script>$(function(){$('#pager_con_76_35').data('localdata', [{"Id":1134958,"Name":"人工智能云服务","Hits":9,"LinkUrl":"/productinfo/1134958.html?templateId=614029","PicUrl":"@{/contents/sitefiles2020/10104824/images/10600481.jpg","Price":"0.00","QTime":"2019-09-02","Short":null}]);});</script>    <div class="w-list xn-resize">
+                    <ul class="w-list-ul f-clearfix" id="ulList_con_76_35"
+                        data-title-autolines="1"
+                        data-desc-autolines="1">
+                        <li class="w-list-item f-clearfix">
+                            <a th:href="@{/smart}" target="_blank" class="w-list-link">
+                                <div class="w-list-pic">
+                                    <img th:src="@{/contents/sitefiles2020/10104824/images/10600481.jpg}" class="w-listpic-in" />
+                                </div>
+                                <div class="w-list-bottom">
+                                    <h5 class="w-list-title">人工智能云服务</h5>
+                                    <div class="w-list-desc "></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                    <script>
+                        var callback_con_76_35 = function () {
+                            var sv = $("#smv_con_76_35");
+                            var titlelines = parseInt(sv.find(".w-list-ul").attr("data-title-autolines"));
+                            var desclines = parseInt(sv.find(".w-list-ul").attr("data-desc-autolines"));
+
+                            var titleItem = sv.find(".w-list-title");
+                            var title_line_height = titleItem.css("line-height");
+                            titleItem.css("height", parseInt(title_line_height) * titlelines);
+
+                            var desc_line_height = sv.find(".w-list-desc").css("line-height");
+                            sv.find(".w-list-desc").css("height", parseInt(desc_line_height) * desclines);
+
+                            sv.find("img").cutFill();
+                        }
+                        callback_con_76_35();
+                    </script>
+                    <div id='pager_con_76_35' jp-htmlid='con_76_35' class='xn-pager xn-resize'  jp-style='Style1_Item0' jp-color='0' jp-align='right' jp-enable='true' jp-device='pc'   jp-first='首页' jp-prev='上一页' jp-next='下一页' jp-last='尾页' jp-more='查看更多' jp-goto='跳转到' jp-go='GO'   jp-totalpages='1' jp-totalcounts='1' jp-pagesize='4' jp-currentpage='1' jp-vpage='5'   jp-listtype='product' jp-cid='' jp-eid='1134958' jp-datestyle='yyyy-MM-dd' jp-orderbyfield='createtime' jp-orderbytype='desc' jp-skey='' jp-templateid='614029' jp-postdata='' jp-callback='callback_con_76_35' jp-es='false' jp-localload='1' ></div><script>$(function(){xnPager('pager_con_76_35');});</script>    <script type="text/template" id="listTemplate_con_76_35">
+                        <li class="w-list-item f-clearfix">
+                            <a href="$data.LinkUrl" target="_blank" class="w-list-link">
+                                <div class="w-list-pic">
+                                    <img src="$data.PicUrl" class="w-listpic-in" />
+                                </div>
+                                <div class="w-list-bottom">
+                                    <h5 class="w-list-title">$data.Name</h5>
+                                    <div class="w-list-desc ">$data.Short</div>
+                                </div>
+                            </a>
+                        </li>
+                    </script>
+                </div></div><div id="smv_con_77_0" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item3" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 144px; width: 966px; left: 9px; top: 9502px;z-index:38;"><div class="yibuFrameContent con_77_0  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_77_0' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_77_0" style="height: 100%; word-wrap:break-word;">
+                        <p style="text-align:center"><span style="font-size:18px"><span style="color:#000000"><span style="line-height:1.5"><span style="font-family:微软雅黑">平台与多家保险公司合作，对接上线一系列热销非车险产品，推荐保险中介销售，同时为保险机构构建基于非车险营销、交易和服务的平台。</span></span><span style="font-family:微软雅黑">&nbsp;</span></span></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_79_27" ctype="image"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 439px; width: 1476px; left: -214px; top: 3037px;z-index:40;"><div class="yibuFrameContent con_79_27  image_Style1  " style="overflow:visible;;" >
+                    <div class="w-image-box" data-fillType="2" id="div_con_79_27">
+                        <a target="_self" href="">
+                            <img th:src="@{/contents/sitefiles2020/10104824/images/10969619.png}" alt="场景定制新改1" title="场景定制新改1" id="img_smv_con_79_27" style="width: 1474px; height:437px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_79_27", "1474", "439", "2");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_111_28" ctype="line"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="x" daxis="All" isdeletable="True" style="height: 19px; width: 3405px; left: -896px; top: 3467px;z-index:72;"><div class="yibuFrameContent con_111_28  line_Style1  " style="overflow:visible;;" ><!-- w-line -->
+                    <div style="position:relative; height:100%">
+                        <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+                    </div>
+                </div></div><div id="smv_con_82_45" ctype="image"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 343px; width: 1161px; left: -65px; top: 9008px;z-index:43;"><div class="yibuFrameContent con_82_45  image_Style1  " style="overflow:visible;;" >
+                    <div class="w-image-box" data-fillType="2" id="div_con_82_45">
+                        <a target="_self" href="">
+                            <img th:src="@{/contents/sitefiles2020/10104824/images/10786138.png}" alt="意外、健康险理赔自动化平台" title="意外、健康险理赔自动化平台" id="img_smv_con_82_45" style="width: 1159px; height:341px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_82_45", "1159", "343", "2");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_83_55" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item2" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 112px; width: 449px; left: 352px; top: 8962px;z-index:44;"><div class="yibuFrameContent con_83_55  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_83_55' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_83_55" style="height: 100%; word-wrap:break-word;">
+                        <p><span style="font-size:22px"><span style="font-family:Source Han Sans"><span style="line-height:90%"><span style="color:black"><strong>四、意外、健康险理赔自动化平台</strong></span></span></span></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_87_15" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item2" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 113px; width: 458px; left: 0px; top: 10551px;z-index:48;"><div class="yibuFrameContent con_87_15  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_87_15' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_87_15" style="height: 100%; word-wrap:break-word;">
+                        <p style="text-align:center"><span style="line-height:1.5"><span style="font-size:18px"><strong>智能语音报案</strong></span></span></p>
+
+                        <p style="text-align:center"><span style="line-height:1.5"><span style="font-size:18px">实现智能客服，及时响应客户需求。</span></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_88_41" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item2" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 113px; width: 448px; left: 565px; top: 10551px;z-index:49;"><div class="yibuFrameContent con_88_41  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_88_41' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_88_41" style="height: 100%; word-wrap:break-word;">
+                        <p style="text-align:center"><span style="line-height:1.5"><span style="font-size:18px"><strong>智能查勘调度</strong></span></span></p>
+
+                        <p style="text-align:center"><span style="line-height:1.5"><span style="font-size:18px">以最优的方式进行查勘调度。</span></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_89_7" ctype="image"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 517px; width: 1830px; left: -385px; top: 11020px;z-index:50;"><div class="yibuFrameContent con_89_7  image_Style1  " style="overflow:visible;;" >
+                    <div class="w-image-box" data-fillType="2" id="div_con_89_7">
+                        <a target="_self" href="">
+                            <img th:src="@{/contents/sitefiles2020/10104824/images/10901746.png}" alt="人工智能-图片理解1" title="人工智能-图片理解1" id="img_smv_con_89_7" style="width: 1828px; height:515px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_89_7", "1828", "517", "2");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_90_51" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item2" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 112px; width: 417px; left: -30px; top: 10991px;z-index:51;"><div class="yibuFrameContent con_90_51  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_90_51' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_90_51" style="height: 100%; word-wrap:break-word;">
+                        <p style="text-align:center"><span style="line-height:1.5"><span style="font-size:18px"><strong>图片理解</strong><strong>&nbsp;</strong></span></span></p>
+
+                        <p style="text-align:center"><span style="line-height:1.5"><span style="font-size:18px">提供图片识别、车辆识别&nbsp;、文字识别等服务。</span></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_91_41" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item2" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 112px; width: 409px; left: 664px; top: 10991px;z-index:52;"><div class="yibuFrameContent con_91_41  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_91_41' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_91_41" style="height: 100%; word-wrap:break-word;">
+                        <p style="text-align:center"><span style="line-height:1.5"><span style="font-size:18px"><strong>一拍知重</strong><strong>&nbsp;</strong></span></span></p>
+
+                        <p style="text-align:center"><span style="line-height:1.5"><span style="font-size:18px">提供一拍知重等功能。</span></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_92_51" ctype="image"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 331px; width: 1150px; left: -95px; top: 11668px;z-index:53;"><div class="yibuFrameContent con_92_51  image_Style1  " style="overflow:visible;;" >
+                    <div class="w-image-box" data-fillType="2" id="div_con_92_51">
+                        <a target="_self" href="">
+                            <img th:src="@{/contents/sitefiles2020/10104824/images/10786856.png}" alt="人工智能-智能质检、图片定损" title="人工智能-智能质检、图片定损" id="img_smv_con_92_51" style="width: 1148px; height:329px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_92_51", "1148", "331", "2");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_93_52" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item2" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 145px; width: 711px; left: -134px; top: 11575px;z-index:54;"><div class="yibuFrameContent con_93_52  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_93_52' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_93_52" style="height: 100%; word-wrap:break-word;">
+                        <p style="text-align:center"><span style="line-height:1.5"><span style="font-size:18px"><strong>智能质检&nbsp;</strong></span></span></p>
+
+                        <p style="text-align:center"><span style="line-height:1.5"><span style="font-size:18px">智能筛选&ldquo;风险&rdquo;案件，统一视频质检标准，降低企业成本。</span></span></p>
+
+                        <p>&nbsp;</p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_94_6" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item2" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 160px; width: 556px; left: 518px; top: 11573px;z-index:55;"><div class="yibuFrameContent con_94_6  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_94_6' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_94_6" style="height: 100%; word-wrap:break-word;">
+                        <p style="text-align:center"><span style="line-height:1.5"><span style="font-size:18px"><strong>图片定损</strong></span></span></p>
+
+                        <p style="text-align:center"><span style="line-height:1.5"><span style="font-size:18px">大幅提升核损效率和准确性，对车险安检高估、重复理赔进行防控。</span></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_97_17" ctype="line"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="x" daxis="All" isdeletable="True" style="height: 19px; width: 4256px; left: -874px; top: 10380px;z-index:58;"><div class="yibuFrameContent con_97_17  line_Style1  " style="overflow:visible;;" ><!-- w-line -->
+                    <div style="position:relative; height:100%">
+                        <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+                    </div>
+                </div></div><div id="smv_con_98_54" ctype="line"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="x" daxis="All" isdeletable="True" style="height: 20px; width: 2255px; left: -620px; top: 9344px;z-index:59;"><div class="yibuFrameContent con_98_54  line_Style1  " style="overflow:visible;;" ><!-- w-line -->
+                    <div style="position:relative; height:100%">
+                        <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+                    </div>
+                </div></div><div id="smv_con_99_12" ctype="line"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="x" daxis="All" isdeletable="True" style="height: 21px; width: 3826px; left: -974px; top: 8624px;z-index:60;"><div class="yibuFrameContent con_99_12  line_Style1  " style="overflow:visible;;" ><!-- w-line -->
+                    <div style="position:relative; height:100%">
+                        <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+                    </div>
+                </div></div><div id="smv_con_103_37" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item2" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 103px; width: 551px; left: 417px; top: 3629px;z-index:64;"><div class="yibuFrameContent con_103_37  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_103_37' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_103_37" style="height: 100%; word-wrap:break-word;">
+                        <p><span style="font-size:22px"><strong>一、移动交易系统</strong></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_105_51" ctype="image"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 413px; width: 1697px; left: -372px; top: 2583px;z-index:66;"><div class="yibuFrameContent con_105_51  image_Style1  " style="overflow:visible;;" >
+                    <div class="w-image-box" data-fillType="2" id="div_con_105_51">
+                        <a target="_self" href="">
+                            <img th:src="@{/contents/sitefiles2020/10104824/images/10933876.jpg}" alt="10838535_meitu_1" title="10838535_meitu_1" id="img_smv_con_105_51" style="width: 1695px; height:411px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_105_51", "1695", "413", "2");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_107_10" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item2" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 112px; width: 360px; left: 405px; top: 5294px;z-index:68;"><div class="yibuFrameContent con_107_10  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_107_10' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_107_10" style="height: 100%; word-wrap:break-word;">
+                        <p><span style="font-size:22px"><strong>二、中介业务管理系统</strong></span></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_108_23" ctype="image"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 527px; width: 1683px; left: -348px; top: 5366px;z-index:69;"><div class="yibuFrameContent con_108_23  image_Style1  " style="overflow:visible;;" >
+                    <div class="w-image-box" data-fillType="2" id="div_con_108_23">
+                        <a target="_self" href="">
+                            <img th:src="@{/contents/sitefiles2020/10104824/images/2931777.jpg}" alt="报价中心-0-00-00-00" title="报价中心-0-00-00-00" id="img_smv_con_108_23" style="width: 1681px; height:525px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_108_23", "1681", "527", "2");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_109_51" ctype="image"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 471px; width: 1673px; left: -341px; top: 5814px;z-index:70;"><div class="yibuFrameContent con_109_51  image_Style1  " style="overflow:visible;;" >
+                    <div class="w-image-box" data-fillType="2" id="div_con_109_51">
+                        <a target="_self" href="">
+                            <img th:src="@{/contents/sitefiles2020/10104824/images/2931675.jpg}" alt="出单中心-0-00-00-00" title="出单中心-0-00-00-00" id="img_smv_con_109_51" style="width: 1671px; height:469px;">
+                        </a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            InitImageSmv("con_109_51", "1671", "471", "2");
+                        });
+                    </script>
+
+                </div></div><div id="smv_con_115_22" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item2" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 131px; width: 360px; left: 385px; top: 7427px;z-index:76;"><div class="yibuFrameContent con_115_22  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_115_22' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_115_22" style="height: 100%; word-wrap:break-word;">
+                        <p><strong><span style="font-size:22px"><span style="font-family:&quot;Source Han Sans&quot;,Geneva,sans-serif">三、在线视频理赔系统</span></span></strong></p>
+
+                    </div>
+                </div>
+                </div></div><div id="smv_con_116_58" ctype="text"  class="esmartMargin smartAbs " cpid="34" cstyle="Style1" ccolor="Item3" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 1680px; width: 653px; left: 378px; top: 3655px;z-index:77;"><div class="yibuFrameContent con_116_58  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_116_58' style="height: 100%;">
+                    <div class="editableContent" id="txtc_con_116_58" style="height: 100%; word-wrap:break-word;">
+                        <p><span style="color:#222222"><span style="font-size:14px"><span style="font-family:Calibri"><strong><span style="font-family:Microsoft YaHei">支持</span></strong></span><span style="font-family:Microsoft YaHei"><strong>H5、API、公众号嵌入等多种方式接入</strong></span></span></span><span style="font-size:28px"><span style="color:#555555"><span style="font-family:Microsoft YaHei"> </span></span></span><span style="font-size:18.0pt"><span style="font-family:Calibri"><span style="color:black"> </span></span></span></p>
+
+                    </div>
+                </div>
+                </div></div></div></div><input type='hidden' name='__RequestVerificationToken' id='token__RequestVerificationToken' value='P5tYvIeB29SLR_qNKc5wcmKMq9PkA8soRtmk7bBrG5T64V6FR1dKVBe_hyVApj-mscDbOgEOqymMYGttVLHSiPGPMvNi1gdDiIRlZ4xy2-Y1' />
+            </div>
+        </div>
+    </div>
+    <div style="background-color: transparent; background-image: none; background-repeat: no-repeat;background-position:0 0; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;
+         position: relative; width: 100%;min-width:1000px;background-size: auto;" bgScroll="none">
+        <div class=" footer" cpid="1087" id="smv_Area3" style="width: 1000px; height: 106px; position: relative; margin: 0 auto;">
+            <div id="smv_tem_36_19" ctype="button"  class="esmartMargin smartAbs" cpid="1087" cstyle="Style1" ccolor="Item0" areaId="Area3" isContainer="False" pvid="" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 38px; width: 271px; left: 24px; top: 9px;z-index:10;"><div class="yibuFrameContent tem_36_19  button_Style1  " style="overflow:visible;;" ><a target="_self" href="" class="w-button f-ellipsis" style="width: 271px; height: 38px; line-height: 38px;">
+    <span class="w-button-position">
+        <em class="w-button-text f-ellipsis">
+            <i class="mw-iconfont w-button-icon ">뀣</i>邮箱：Service@zhixunchelian.cn
+        </em>
+    </span>
+            </a>
+                <script type="text/javascript">
+
+                </script>
+            </div></div>
+            <div id="smv_tem_44_31" ctype="banner"  class="esmartMargin smartAbs " cpid="1087" cstyle="Style1" ccolor="Item0" areaId="Area3" isContainer="True" pvid="" tareaId="Area3"  re-direction="y" daxis="Y" isdeletable="True" style="height: 106px; width: 100%; left: 0px; top: 0px;z-index:0;"><div class="yibuFrameContent tem_44_31  banner_Style1  " style="overflow:visible;;" ><div class="fullcolumn-inner smAreaC" id="smc_Area0" cid="tem_44_31" style="width:1000px">
+            <div id="smv_tem_38_30" ctype="button"  class="esmartMargin smartAbs " cpid="1087" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_44_31" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 38px; width: 282px; left: 681px; top: 8px;z-index:10;"><div class="yibuFrameContent tem_38_30  button_Style1  " style="overflow:visible;;" ><a target="_self" href="" class="w-button f-ellipsis" style="width: 282px; height: 38px; line-height: 38px;">
+    <span class="w-button-position">
+        <em class="w-button-text f-ellipsis">
+            <i class="mw-iconfont w-button-icon ">넹</i>地址：成都自贸区德商国际C座2楼204室
+        </em>
+    </span>
+            </a>
+                <script type="text/javascript">
+                    $(function () {
+                    });
+                </script>
+            </div></div><div id="smv_tem_39_6" ctype="button"  class="esmartMargin smartAbs " cpid="1087" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_44_31" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 38px; width: 207px; left: 381px; top: 10px;z-index:10;"><div class="yibuFrameContent tem_39_6  button_Style1  " style="overflow:visible;;" ><a target="_self" href="" class="w-button f-ellipsis" style="width: 207px; height: 38px; line-height: 38px;">
+    <span class="w-button-position">
+        <em class="w-button-text f-ellipsis">
+            <i class="mw-iconfont w-button-icon ">넓</i>电话： 400-9691-365
+        </em>
+    </span>
+        </a>
+            <script type="text/javascript">
+                $(function () {
+                });
+            </script>
+        </div></div><div id="smv_tem_42_15" ctype="line"  class="esmartMargin smartAbs " cpid="1087" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_44_31" tareaId="Area3"  re-direction="x" daxis="All" isdeletable="True" style="height: 20px; width: 1000px; left: 0px; top: 43px;z-index:12;"><div class="yibuFrameContent tem_42_15  line_Style1  " style="overflow:visible;;" ><!-- w-line -->
+            <div style="position:relative; height:100%">
+                <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+            </div>
+        </div></div><div id="smv_tem_45_36" ctype="image"  class="esmartMargin smartAbs " cpid="1087" cstyle="Style2" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_44_31" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 20px; width: 20px; left: 600px; top: 70px;z-index:14;"><div class="yibuFrameContent tem_45_36  image_Style2  " style="overflow:visible;;" >
+            <div class="w-image-box" data-fillType="2" id="div_tem_45_36">
+                <a target="_self" href="">
+                    <img th:src="@{/contents/sitefiles2020/10104824/images/2839762.png}" alt="公安机关互联网安全管理服务备案图标" title="公安机关互联网安全管理服务备案图标" id="img_smv_tem_45_36" style="width: 20px; height:20px;">
+                </a>
+            </div>
+            <script type="text/javascript">
+                $(function () {
+                    InitImageSmv("tem_45_36", "20", "20", "2");
+
+                });
+            </script>
+        </div></div><div id="smv_tem_48_7" ctype="text"  class="esmartMargin smartAbs " cpid="1087" cstyle="Style1" ccolor="Item2" areaId="Area0" isContainer="False" pvid="tem_44_31" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 25px; width: 488px; left: 277px; top: 72px;z-index:0;"><div class="yibuFrameContent tem_48_7  text_Style1  " style="overflow:hidden;;" ><div id='txt_tem_48_7' style="height: 100%;">
+            <div class="editableContent" id="txtc_tem_48_7" style="height: 100%; word-wrap:break-word;">
+                <p><span style="font-size:14px"><span style="color:#cccccc"><span style="font-family:'Microsoft YaHei'">版权所有：智迅车联 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></span><span style="font-size:14px"><span style="color:#cccccc"><span style="font-family:'Microsoft YaHei'">公安互联网安全认证</span></span></span></p>
+
+            </div>
+        </div>
+        </div></div><div id="smv_tem_49_34" ctype="button"  class="esmartMargin smartAbs " cpid="1087" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_44_31" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 24px; width: 153px; left: 435px; top: 68px;z-index:61;"><div class="yibuFrameContent tem_49_34  button_Style1  " style="overflow:visible;;" ><a target="_self" href="http://www.miitbeian.gov.cn/" class="w-button f-ellipsis" style="width: 160px; height: 22px; line-height: 22px;">
+    <span class="w-button-position">
+        <em class="w-button-text f-ellipsis">
+            <i class="mw-iconfont w-button-icon w-icon-hide"></i>蜀ICP备：15022735号
+        </em>
+    </span>
+        </a>
+            <script type="text/javascript">
+                $(function () {
+                });
+            </script>
+        </div></div></div>
+            <div id="bannerWrap_tem_44_31" class="fullcolumn-outer" style="position: absolute; top: 0; bottom: 0;">
+            </div>
+
+            <script type="text/javascript">
+
+                $(function () {
+                    var resize = function () {
+                        $("#smv_tem_44_31 >.yibuFrameContent>.fullcolumn-inner").width($("#smv_tem_44_31").parent().width());
+                        $('#bannerWrap_tem_44_31').fullScreen(function (t) {
+                            if (VisitFromMobile()) {
+                                t.css("min-width", t.parent().width())
+                            }
+                        });
+                    }
+                    $(window).resize(function (e) {
+                        if (e.target == this) {
+                            resize();
+                        }
+                    });
+                    resize();
+                });
+            </script>
+        </div></div>
+        </div>
+    </div>
+</div>
+
+<script th:src="@{/static/lzparallax/1.0.0/lz-parallax.min.js}" type="text/javascript"></script>        <script type="text/javascript">
+    $(function () {
+        jsmart.autoContainer = 0;
+        jsmart.autoComputeCallback = function () {
+            if (jsmart.autoContainer) {
+                clearTimeout(jsmart.autoContainer);
+                jsmart.autoContainer = 0;
+            }
+            jsmart.autoContainer = setTimeout(function () {
+                if (window.refreshBgScroll) {
+                    window.refreshBgScroll();
+                }
+            }, 50);
+        }
+        $("div[bgscroll]").each(function () {
+            var bgscroll = $(this).attr("bgscroll");
+            $(this).lzparallax({ effect: bgscroll, autoPosition: false, clone: true });
+        });
+    });
+    window.refreshBgScroll = function () {
+        $("div[bgscroll]").each(function () {
+            var bgscroll = $(this).attr("bgscroll");
+            var bgclear = $(this).attr("bgclear");
+            $(this).removeAttr("bgclear");
+            $(this).lzparallax("refresh", bgscroll, bgclear);
+        });
+    }
+</script>
+
+<!--<div id="xPowered" style="text-align: center;width: 100%;padding-top: 4px;font-size: 12px; background-color: #FFFFFF; color: #232323">
+    <div style="text-align: center; line-height: 2;">
+        <span style="padding-right: 16px;"><a target="_blank" href="http://www.beian.miit.gov.cn" style="color: #232323;">京ICP备xxxxxxxx号</a></span>
+    </div>
+</div>-->
+<script type="text/javascript">
+    $(function() {
+        $("img.lazyload").lazyload({ skip_invisible: false, effect: "fadeIn", failure_limit: 15, threshold: 100 });
+        $('.animated').smanimate();
+        $('.smartRecpt').smrecompute();
+        setCurrentPageTitle('产品中心', 2);
+        xwezhan.initWz();
+
+       /*recordPageAccess(
+            34,
+            10104824,
+            '34',
+            '0');*/
+
+
+        if ($("#txtDeviceSwitchEnabled").val() == "hide") {
+            $(".m-deviceSwitch").css("display", "none");
+        }
+
+        // 隐藏备案信息展示
+        $('div[ctype=companyinfo]').find('.company-info-title').each(function(i, it) {
+            if($(it).text().indexOf('备案') > -1 || $(it).next().text().toLowerCase().indexOf('icp') > -1) {
+                $(it).parent().parent().css('display', 'none');
+            }
+        })
+    });
+</script>
+<div id="systemDialogLayer" style="position:relative;z-index:999999"></div>
+<div style='display: none'>
+    <script type='text/javascript' src='https://v1.cnzz.com/z_stat.php?id=&web_id='></script>
+</div>
+</body>
+</html>
